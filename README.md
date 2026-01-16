@@ -4,11 +4,6 @@
 <p>
   Path to a free self-taught education in Cultural Geography!
 </p>
-<p>
-  <a href="https://github.com/hocbigg/cultural-geography">
-    <img alt="Hocbigg" src="/images/view_on_github.svg"
-  ></a>
-</p>
 </div>
 
 # Contents
@@ -20,10 +15,10 @@
 
 # Summary
 
-The Cultural Geography curriculum is a **complete education in Cultural Geography** using online materials.
+The Cultural Geography curriculum is a complete education in Cultural Geography using online materials.
 
 Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md) or [extras/other_curricula](extras/other_curricula.md).
+they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md).
 
 
 **[How to contribute](/CONTRIBUTING.html)**
@@ -72,12 +67,12 @@ These four sections form the essential foundation. Complete them in this exact o
 
 ### Specialization Tracks
 
-The last two sections are specialization tracks. You can choose one or both depending on your interests. Study them **after** completing the Core sections.
+The last two sections are specialization tracks. You can choose one or both depending on your interests. Study them after completing the Core sections.
 
-- **V. Globalization, Mobility, and Tourism**  
+- V. Globalization, Mobility, and Tourism  
   Choose this track if you are especially interested in how global connections, international movement, and travel shape cultures and places today.
 
-- **VI. Environment, Culture, and Society**  
+- VI. Environment, Culture, and Society  
   Choose this track if you want to explore the relationships between human cultures, natural environments, indigenous knowledge, and climate issues.
 
 ## I. Foundations of Human & Cultural Geography
@@ -86,7 +81,7 @@ The last two sections are specialization tracks. You can choose one or both depe
 | --- | --- | --- | --- |
 | Geographic Thinking (space, place, scale, landscape) | It teaches how to analyze locations, areas, and their sizes to understand patterns and connections on Earth. This skill helps explain why things happen where they do and how places relate at different levels. | [*Geography: Realms, Regions, and Concepts* (Open Textbook Library)](https://open.umn.edu/opentextbooks/textbooks/335) | [Saylor “Introduction to Geography”](https://learn.saylor.org/course/view.php?id=1145) |
 | Human Geography Overview | It reveals how people shape and are shaped by their surroundings across the planet. You gain tools to examine population, cities, economies, and cultures through a spatial lens. | [*The Cultural Landscape* (Internet Archive)](https://archive.org/details/culturallandscap0012rube) | [edX AP Human Geography](https://www.edx.org/course/introduction-to-ap-human-geography) |
-| World Regions & Culture | It provides a clear picture of how physical features, people, and traditions vary across major global areas. This builds knowledge to compare regions and understand their unique characteristics and connections. | [*World Regional Geography* (Open Minnesota)](https://open.lib.umn.edu/worldgeography/) | [Saylor World Regional Geography](https://learn.saylor.org/course/GEOG101) |
+| World Regions & Culture | It provides a clear picture of how physical features, people, and traditions vary across major global areas. This builds knowledge to compare regions and understand their unique characteristics and connections. | [*World Regional Geography* (Open Minnesota)](https://open.lib.umn.edu/worldgeography/) | [Saylor World Regional Geography](https://learn.saylor.org/course/view.php?id=1145) |
 
 ## II. Core Cultural Geography
 
