@@ -25,3 +25,9 @@ Courses | Duration | Effort
 [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) | 4 weeks | 2 hours/week
 [Mindshift](https://www.coursera.org/learn/mindshift) | 4 weeks | 2 hours/week
 [Powersearching with Google](https://www.edx.org/learn/google-power-searching/google-power-searching-with-google) | 3 weeks | 4-6 hours/week
+
+## Other Courses
+
+- [AP Human Geography Course](https://apstudents.collegeboard.org/courses/ap-human-geography) (College Board official outline and resources)
+- [Human Geography Open Textbook for Advanced Placement](https://oercommons.org/courseware/lesson/16294/overview) (Open Geography Education)
+- [Saylor Academy World Regional Geography](https://learn.saylor.org/course/view.php?id=1145) (Free structured course with readings)
