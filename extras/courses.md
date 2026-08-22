@@ -1,33 +1,6 @@
-# Extra Courses
+# Great Courses in Cultural Geography
 
-This is a list of high-quality courses that, for one reason or another, didn't make it into the curriculum.
-The most common reasons are that the course isn't available often enough,
-or that there was an alternative that fit better into the curriculum.
-
-## Introductory and General Human Geography
-
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Understanding Cultural and Human Geography](https://www.thegreatcoursesplus.com/understanding-cultural-and-human-geography) (The Great Courses Plus, Prof. Paul Robbins) | 24 lectures (~30 min each) | 12-15 hours total
-[Geography: Realms, Regions, and Concepts](https://www.youtube.com/playlist?list=PL8dPuuaLjXtO85Sl24rSiVQ93q7vcntNF) (UC Berkeley lectures on YouTube) | Semester-long series | Variable
-
-## Specialized Topics
-
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Intercultural Management](https://www.coursera.org/learn/intercultural) (ESCP Business School on Coursera, free audit) | 6 weeks | 3-5 hours/week
-[Indigenous Canada](https://www.coursera.org/learn/indigenous-canada) (University of Alberta on Coursera, free audit) | 12 weeks | 3-5 hours/week
-
-## Online Learning - Great Courses
-
-Courses | Duration | Effort
-:-- | :--: | :--:
-[Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn) | 4 weeks | 2 hours/week
-[Mindshift](https://www.coursera.org/learn/mindshift) | 4 weeks | 2 hours/week
-[Powersearching with Google](https://www.edx.org/learn/google-power-searching/google-power-searching-with-google) | 3 weeks | 4-6 hours/week
-
-## Other Courses
-
-- [AP Human Geography Course](https://apstudents.collegeboard.org/courses/ap-human-geography) (College Board official outline and resources)
-- [Human Geography Open Textbook for Advanced Placement](https://oercommons.org/courseware/lesson/16294/overview) (Open Geography Education)
-- [Saylor Academy World Regional Geography](https://learn.saylor.org/course/view.php?id=1145) (Free structured course with readings)
+- [Understanding Cultural and Human Geography](https://www.wondrium.com) - A masterclass series by a leading political ecologist exploring how cultural identities, migration, agriculture, religion, and political power carve themselves into the Earth's surface.
+- [Indigenous Canada](https://www.coursera.org/learn/indigenous-canada) - An in-depth exploration of Indigenous histories, cultural landscapes, settler colonialism, and land-based worldviews from Indigenous perspectives.
+- [Cities are back in town: Urban sociology for a globalizing world](https://www.coursera.org/learn/cities) - Investigates how globalization, migration flows, social movements, and urban governance reshape public space and cultural life in global metropolises.
+- [Territory: Spatial Reification of Power](https://ocw.mit.edu) - Advanced syllabus and seminar lecture materials examining the historical and cultural mechanisms through which state power and social relations construct physical borders.

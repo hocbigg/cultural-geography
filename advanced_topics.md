@@ -1,29 +1,57 @@
 # Advanced Topics
 
-- [Globalization, Mobility, and Tourism](#globalization-mobility-and-tourism)
-- [Environment, Culture, and Society](#environment-culture-and-society)
+- [Mobilities, Transnationalism, and Border Geographies](#mobilities-transnationalism-and-border-geographies)
+- [More-Than-Human Geographies and Cultural Political Ecology](#more-than-human-geographies-and-cultural-political-ecology)
+- [Critical Heritage, Memoryscapes, and Spatial Politics](#critical-heritage-memoryscapes-and-spatial-politics)
+- [Affective, Sensory, and Non-Representational Geographies](#affective-sensory-and-non-representational-geographies)
+- [Spatial Humanities, Digital Geographies, and Counter-Cartographies](#spatial-humanities-digital-geographies-and-counter-cartographies)
 
-The last two sections are specialization tracks. You can choose one or both depending on your interests. Study them after completing the Core sections.
+## Overview
 
-- V. Globalization, Mobility, and Tourism  
-  Choose this track if you are especially interested in how global connections, international movement, and travel shape cultures and places today.
+These advanced topics are designed for learners who have completed foundational studies in Cultural Geography and wish to specialize in contemporary theoretical frameworks, advanced methodologies, and specialized subdisciplines:
 
-- VI. Environment, Culture, and Society  
-  Choose this track if you want to explore the relationships between human cultures, natural environments, indigenous knowledge, and climate issues.
+- **Mobilities, Transnationalism, and Border Geographies:** Investigates how spatial movement, infrastructure, borders, and displacement constitute global networks and lived experiences of difference.
+- **More-Than-Human Geographies and Cultural Political Ecology:** Explores multi-species entanglements, Indigenous territorial ontologies, and the political-economic governance of nature and environmental crises.
+- **Critical Heritage, Memoryscapes, and Spatial Politics:** Examines how collective memory, national narratives, and institutional power materialize in monuments, heritage conservation, and contested historical landscapes.
+- **Affective, Sensory, and Non-Representational Geographies:** Analyzes pre-reflective everyday practices, bodily sensations, acoustic soundscapes, and emotional atmospheres that exceed textual representations of space.
+- **Spatial Humanities, Digital Geographies, and Counter-Cartographies:** Focuses on computational and visual spatial methods, critical GIS, digital media, and grassroots counter-mapping practices.
 
-## Globalization, Mobility, and Tourism
+## Mobilities, Transnationalism, and Border Geographies
 
-| Subject | Why study? | Book / Text | Course |
-| --- | --- | --- | --- |
-| Globalization & Culture | It demonstrates how global connections spread ideas, goods, and lifestyles while changing local traditions. You understand both blending and resistance in today's interconnected world. | [*World Regional Geography*](https://open.lib.umn.edu/worldgeography/) | [Saylor Globalization](https://learn.saylor.org/course/view.php?id=681) |
-| Migration & Transnationalism | It traces how people move across borders and maintain ties to home while building new lives. This gives insight into family networks, identities, and communities that span countries. | [UN Migration Open Text](https://open.lib.umn.edu/worldgeography/) | [AP Human Geography](https://www.edx.org/course/introduction-to-ap-human-geography) |
-| Tourism & Place-Making | It explores how visitors and local actions reshape destinations and their cultural meaning. You learn how travel creates economic benefits, challenges, and new identities for places. | [Open University “Tourism and Culture”](https://www.open.edu/openlearn/history-the-arts/history/what-heritage/content-section-3.3) | [OpenLearn Tourism Studies](https://www.open.edu/openlearn/free-courses/full-catalogue) |
+| Topic | Focus & Key Questions | Recommended Resources |
+| --- | --- | --- |
+| The New Mobilities Paradigm & Uneven Friction | How does prioritizing movement over static place reshape geographic thought? Explores mobility justice, transit infrastructures, differential access to velocity, and elite hyper-mobility versus forced displacement. | - **Monograph:** Tim Cresswell, *On the Move: Mobility in the Modern Western World* (Routledge)<br>- **Seminal Text:** Mimi Sheller & John Urry, "The New Mobilities Paradigm" (*Environment and Planning A*)<br>- **Courseware:** Open University OpenLearn, [Thinking Geographically about Migration](https://www.open.edu/openlearn/) |
+| Borders, Encampment & Carceral Geographies | How do state borders function as dispersed, biometric, and externalized technologies of spatial violence? Examines detention centers, refugee camps, extraterritorial enforcement, and everyday borderlands. | - **Monograph:** Sandro Mezzadra & Brett Neilson, *Border as Method, or, the Multiplication of Labor* (Duke University Press)<br>- **Monograph:** Alison Mountz, *The Death of Asylum: Hidden Geographies of the Enforcement Archipelago* (University of Minnesota Press)<br>- **Monograph:** Dominique Moran, *Carceral Geography: Spaces and Practices of Incarceration* (Routledge) |
+| Critical Tourism Geographies & the Spatial Imaginary | How does global tourism stage authenticity, commodify heritage, and reconfigure local place-identities? Analyzes the tourist gaze, post-colonial leisure enclaves, dark tourism, and overtourism resistance. | - **Monograph:** John Urry & Jonas Larsen, *The Tourist Gaze 3.0* (SAGE Publications)<br>- **Monograph:** Tim Edensor, *Tourist Mobility and Cultural Production: Performing Tourism* (Routledge)<br>- **Anthology:** Claudio Minca & Tim Oakes (eds.), *Travels in Paradox: Remapping Tourism* (Rowman & Littlefield) |
 
-## Environment, Culture, and Society
+## More-Than-Human Geographies and Cultural Political Ecology
 
-| Subject | Why study? | Book / Text | Course |
-| --- | --- | --- | --- |
-| Cultural Ecology | It shows how groups adapt their traditions and livelihoods to natural surroundings. This knowledge explains sustainable and changing human-environment relationships. | [*Cultural Ecology* (Internet Archive)](https://archive.org/details/culturallandscap09floyd) | [UND Human Geography](https://und.edu/academics/online/enroll-anytime/geog151.html) |
-| Environmental Perception | It reveals how people view, value, and emotionally connect to nature in different places. You gain tools to understand varied attitudes toward the environment and their impacts. | [Saylor Environmental Geography](https://learn.saylor.org/course/view.php?id=1145) | [Open University Environment & Culture](https://www.open.edu/openlearn/history-the-arts/history/what-heritage/content-section-3.3) |
-| Indigenous Geographies | It highlights how native peoples use, protect, and understand land based on their histories and knowledge. This builds respect for diverse ways of living with the environment. | [*Making Native Space* (Amazon – preview; full access via institutional libraries or purchase)](https://www.ubcpress.ca/making-native-space) | [Indigenous Canada](https://www.coursera.org/learn/indigenous-canada) |
-| Climate & Culture | It connects changing weather patterns to how societies live, adapt, and face risks. You learn why some communities are more vulnerable and how culture influences responses to climate shifts. | [NASA Climate & Society](https://open.lib.umn.edu/worldgeography/) | [AP Human Geography](https://www.edx.org/course/introduction-to-ap-human-geography) |
+| Topic | Focus & Key Questions | Recommended Resources |
+| --- | --- | --- |
+| More-Than-Human & Multi-Species Spatialities | How can geographic inquiry de-center the human subject? Examines animal geographies, plant-human entanglements, hybridity, and actor-network theory in the production of nature-cultures. | - **Monograph:** Sarah Whatmore, *Hybrid Geographies: Natures Cultures Spaces* (SAGE Publications)<br>- **Monograph:** Jamie Lorimer, *Wildlife in the Anthropocene: Conservation after Nature* (University of Minnesota Press)<br>- **Theoretical Text:** Donna J. Haraway, *Staying with the Trouble: Making Kin in the Chthulucene* (Duke University Press) |
+| Cultural Political Ecology & Environmental Justice | How do capital accumulation, institutional power, and cultural representations shape the uneven spatial distribution of environmental toxicity and resource extraction? Analyzes racial capitalism and green gentrification. | - **Monograph:** Paul Robbins, *Political Ecology: A Critical Introduction* (Wiley-Blackwell)<br>- **Seminal Paper:** Laura Pulido, "Geographies of Race and Ethnicity: Environmental Racism, Racial Capitalism, and State-Sanctioned Violence" (*Progress in Human Geography*)<br>- **Courseware:** MIT OpenCourseWare, [Environmental Justice (Course 11.368)](https://ocw.mit.edu/) |
+| Indigenous Geographies & Decolonial Ontologies | How do Indigenous cartographies, relational territorialities, and ancestral epistemologies challenge settler-colonial land dispossession and legal abstractions of private property? | - **Monograph:** Cole Harris, *Making Native Space: Colonialism, Resistance, and Reserves in British Columbia* (UBC Press)<br>- **Monograph:** Leanne Betasamosake Simpson, *As We Have Always Done: Indigenous Freedom Through Radical Resistance* (University of Minnesota Press)<br>- **Online Course:** University of Alberta, [Indigenous Canada (Coursera)](https://www.coursera.org/learn/indigenous-canada) |
+
+## Critical Heritage, Memoryscapes, and Spatial Politics
+
+| Topic | Focus & Key Questions | Recommended Resources |
+| --- | --- | --- |
+| Commemorative Landscapes & Public Iconoclasm | How are state power and historical narratives inscribed onto public space through statues, memorials, and street toponymy? Analyzes counter-monuments, historical erasure, and the politics of monument removal. | - **Monograph:** Nuala C. Johnson, *Geographies of Public Memory and Commemoration* (Routledge)<br>- **Monograph:** Reuben Rose-Redwood, Derek H. Alderman, & Maoz Azaryahu, *The Political Life of Urban Street Names* (Routledge)<br>- **Monograph:** Sanford Levinson, *Written in Stone: Public Monuments in Changing Societies* (Duke University Press) |
+| Critical Heritage & Authorized Discourse | Who possesses the institutional authority to designate "heritage," and how does conservation sanitize or displace dissonant histories? Investigates the Authorized Heritage Discourse (AHD) and UNESCO spatial regimes. | - **Monograph:** Laurajane Smith, *Uses of Heritage* (Routledge)<br>- **Monograph:** Rodney Harrison, *Heritage: Critical Approaches* (Routledge)<br>- **Courseware:** The Open University OpenLearn, [What is Heritage?](https://www.open.edu/openlearn/history-the-arts/what-heritage/content-section-0) |
+| Ruination, Deindustrialization & Material Memory | How do industrial ruins, abandoned infrastructures, and decaying sites generate alternative spatial aesthetics, working-class nostalgia, and post-industrial hauntings? | - **Monograph:** Tim Edensor, *Industrial Ruins: Space, Aesthetics and Materiality* (Berg / Routledge)<br>- **Monograph:** Alice Mah, *Industrial Ruination, Community, and Place* (University of Toronto Press)<br>- **Monograph:** Caitlin DeSilvey, *Curated Decay: Heritage Beyond Saving* (University of Minnesota Press) |
+
+## Affective, Sensory, and Non-Representational Geographies
+
+| Topic | Focus & Key Questions | Recommended Resources |
+| --- | --- | --- |
+| Non-Representational Theory (NRT) & Spatial Practices | How can geography account for pre-reflective practices, bodily habits, performativity, and fleeting spatial events that elude linguistic representation? | - **Monograph:** Nigel Thrift, *Non-Representational Theory: Space, Politics, Affect* (Routledge)<br>- **Anthology:** Ben Anderson & Paul Harrison (eds.), *Taking-Place: Non-Representational Theories and Geography* (Routledge)<br>- **Seminal Paper:** John-David Dewsbury et al., "Enacting Geographies" (*Geoforum*) |
+| Emotional Geographies & Affective Atmospheres | How do collective feelings (fear, grief, hope, anxiety) and environmental atmospheres structure spatial encounters, urban policing, and political mobilization? | - **Anthology:** Joyce Davidson, Liz Bondi, & Mick Smith (eds.), *Emotional Geographies* (Ashgate / Routledge)<br>- **Monograph:** Ben Anderson, *Encountering Affect: Capacities, Apparatuses, Conditions* (Routledge)<br>- **Monograph:** Sara Ahmed, *The Cultural Politics of Emotion* (Edinburgh University Press) |
+| Sensory Geographies & Soundscapes | How do sensory modalities (sound, smell, touch, rhythm) construct our experience of place? Explores acoustic territoriality, sonic ecologies, olfactory mapping, and sensory ethnography. | - **Monograph:** Paul Rodaway, *Sensory Geographies: Body and Sense* (Routledge)<br>- **Methodological Guide:** Sarah Pink, *Doing Sensory Ethnography* (SAGE Publications)<br>- **Monograph:** R. Murray Schafer, *The Soundscape: Our Sonic Environment and the Tuning of the World* (Destiny Books) |
+
+## Spatial Humanities, Digital Geographies, and Counter-Cartographies
+
+| Topic | Focus & Key Questions | Recommended Resources |
+| --- | --- | --- |
+| Critical GIS & Counter-Mapping | How can geospatial data systems be emancipated from military, state, and corporate surveillance to support grassroots spatial justice and counter-hegemonic narratives? | - **Monograph:** Matthew W. Wilson, *New Lines: Critical GIS and the Thinking of the Limits* (University of Minnesota Press)<br>- **Monograph:** Jeremy W. Crampton, *Mapping: A Critical Introduction to Cartography and GIS* (Wiley-Blackwell)<br>- **Seminal Paper:** Nancy Lee Peluso, "Whose Woods Are These? Counter-Mapping Forest Territories in Kalimantan, Indonesia" (*Antipode*) |
+| Digital Spatiality, Algorithms & Code/Space | How do software, location-based services, smart cities, and platform algorithms co-produce physical space and mediate everyday social life? | - **Monograph:** Rob Kitchin & Martin Dodge, *Code/Space: Software and Everyday Life* (MIT Press)<br>- **Monograph:** Gillian Rose, *Visual Methodologies: An Introduction to Researching with Visual Materials* (SAGE Publications)<br>- **Survey Paper:** Agnieszka Leszczynski, "Spatial Media/tion" (*Progress in Human Geography*) |
+| Spatial Humanities & Deep Mapping | How do scholars in the humanities integrate Historical GIS (HGIS), narrative mapping, and geohumanities to reconstruct literary landscapes and historical spatial experiences? | - **Anthology:** David J. Bodenhamer, John Corrigan, & Trevor M. Harris (eds.), *The Spatial Humanities: GIS and the Future of Humanities Scholarship* (Indiana University Press)<br>- **Anthology:** David J. Bodenhamer et al. (eds.), *Deep Maps and Spatial Narratives* (Indiana University Press)<br>- **Interactive Toolkits:** [The Programming Historian](https://programminghistorian.org/) (Open-access lessons on QGIS, text analysis, and geospatial data) |
