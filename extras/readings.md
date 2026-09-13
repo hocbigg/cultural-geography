@@ -1,54 +1,72 @@
 # Great Readings in Cultural Geography
 
-An annotated bibliography of seminal monographs, transformative essays, landmark empirical studies, and authoritative research companions in Cultural Geography. These works trace how leading spatial theorists have formulated paradigms, challenged orthodoxy, and analyzed the relationship between culture, power, landscape, and space.
+An annotated bibliography of seminal monographs, transformative essays, and landmark empirical studies in Cultural Geography. These works trace how leading spatial theorists have formulated paradigms, challenged orthodoxies, and analyzed the relationships among culture, power, landscape, and space.
 
 - [Foundations, Humanistic Geography & The Experience of Place](#foundations-humanistic-geography--the-experience-of-place)
 - [The New Cultural Geography: Landscape, Ideology & Representation](#the-new-cultural-geography-landscape-ideology--representation)
 - [Power, Difference & Critical Spatialities](#power-difference--critical-spatialities)
-- [Frontiers: Affect, More-Than-Human & Non-Representational Geographies](#frontiers-affect-more-than-human--non-representational-geographies)
-- [Essential Companions & Field Anthologies](#essential-companions--field-anthologies)
+- [Mobilities, Borders & Transnational Geographies](#mobilities-borders--transnational-geographies)
+- [Memory, Heritage & Commemorative Landscapes](#memory-heritage--commemorative-landscapes)
+- [Affect, More-Than-Human & Non-Representational Geographies](#affect-more-than-human--non-representational-geographies)
 
 ## Foundations, Humanistic Geography & The Experience of Place
 
-| Title | Author(s) | Type | Why It's Worth Reading |
-| --- | --- | --- | --- |
-| ["The Morphology of Landscape"](https://archive.org/details/universityofc02univ) (1925) | Carl O. Sauer | Landmark Paper | The foundational manifesto of the Berkeley School of Cultural Geography; established the principle that culture acts as the agent upon the natural environment to produce the cultural landscape. |
-| *[Space and Place: The Perspective of Experience](https://archive.org/details/spaceplaceperspe0000tuan)* (1977) | Yi-Fu Tuan | Monograph | The cornerstone text of humanistic geography; investigates how human beings construct emotional bonds with spatial environments (topophilia) and transform abstract space into meaningful place. |
-| *[Place and Placelessness](https://archive.org/details/placeplacelessne0000relp)* (1976) | Edward Relph | Monograph | A landmark phenomenological study analyzing the authentic experience of insideness versus outsideness, and how modern commercial homogenization induces "placelessness." |
-| *[Discovering the Vernacular Landscape](https://archive.org/details/discoveringverna0000jack)* (1984) | J.B. Jackson | Essay Collection | A classic exploration of ordinary, everyday spaces (roads, strip malls, farm fields) that reveals how vernacular landscapes reflect changing societal values and democratic life. |
+| Title | Author(s) |
+| --- | --- |
+| [*The Morphology of Landscape* (1925)](https://archive.org/details/universityofc02univ) | Carl O. Sauer |
+| [*Space and Place: The Perspective of Experience* (1977)](https://archive.org/details/spaceplaceperspe0000tuan) | Yi-Fu Tuan |
+| [*Place and Placelessness* (1976)](https://archive.org/details/placeplacelessne0000relp) | Edward Relph |
+| [*Discovering the Vernacular Landscape* (1984)](https://archive.org/details/discoveringverna0000jack) | J.B. Jackson |
 
 ## The New Cultural Geography: Landscape, Ideology & Representation
 
-| Title | Author(s) | Type | Why It's Worth Reading |
-| --- | --- | --- | --- |
-| *[Social Formation and Symbolic Landscape](https://books.google.com/books?isbn=9780299155148)* (1984) | Denis Cosgrove | Monograph | Pioneered the "cultural turn" in British geography by demonstrating how the visual landscape convention was invented in Renaissance Europe as an ideological tool of landowning elites. |
-| *[The Iconography of Landscape](https://archive.org/details/iconographyoflan0000unse)* (1988) | Denis Cosgrove & Stephen Daniels (eds.) | Seminal Anthology | Advanced the influential conceptual framework of reading landscapes as cultural "texts" and symbolic images encoded with hidden social power. |
-| *[The Lie of the Land: Migrant Workers and the California Landscape](https://books.google.com/books?isbn=9780816626939)* (1996) | Don Mitchell | Monograph | A masterwork of critical Marxist cultural geography showing how pristine agricultural landscapes are produced through the violent exploitation and spatial erasure of migrant labor. |
-| *[Maps of Meaning: An Introduction to Cultural Geography](https://books.google.com/books?isbn=9780415090889)* (1989) | Peter Jackson | Monograph | Connected cultural geography with Birmingham Cultural Studies and Gramscian hegemony, reframing culture as an active terrain of social contestation rather than a static artifact. |
+| Title | Author(s) |
+| --- | --- |
+| [*Social Formation and Symbolic Landscape* (1984)](https://archive.org/details/socialformations0000cosg) | Denis Cosgrove |
+| [*The Iconography of Landscape: Essays on the Symbolic Representation, Design and Use of Past Environments* (1988)](https://archive.org/details/iconographyoflan0000unse) | Denis Cosgrove & Stephen Daniels (eds.) |
+| [*The City as Text: The Politics of Landscape Interpretation in the Kandyan Kingdom* (1990)](https://books.google.com/books?isbn=9780521611947) | James S. Duncan |
+| [*The Lie of the Land: Migrant Workers and the California Landscape* (1996)](https://books.google.com/books?isbn=9780816626939) | Don Mitchell |
+| [*Maps of Meaning: An Introduction to Cultural Geography* (1989)](https://books.google.com/books?isbn=9780415090889) | Peter Jackson |
+| [*In Place/Out of Place: Geography, Ideology, and Transgression* (1996)](https://books.google.com/books?isbn=9780816626892) | Tim Cresswell |
 
 ## Power, Difference & Critical Spatialities
 
-| Title | Author(s) | Type | Why It's Worth Reading |
-| --- | --- | --- | --- |
-| ["A Global Sense of Place"](https://banmarchive.org.uk/marxism-today/june-1991/a-global-sense-of-place/) (1991) | Doreen Massey | Seminal Essay | Revolutionized spatial theory by rejecting reactionary, bounded definitions of place in favor of a dynamic, open, and progressive "power-geometry" shaped by global social relations. |
-| *[Feminism and Geography: The Limits of Geographical Knowledge](https://books.google.com/books?isbn=9780745611563)* (1993) | Gillian Rose | Monograph | A transformative critique exposing how masculine, disembodied gazes have structured mainstream geography; lays out the foundations for feminist spatial analysis and visuality. |
-| *[Demonic Grounds: Black Women and the Cartographies of Struggle](https://books.google.com/books?isbn=9781452908809)* (2006) | Katherine McKittrick | Monograph | A landmark work in Black geography demonstrating how racialized and gendered violence produces geographies of domination, while revealing Black women's spatial practices of resistance. |
-| *[Geographical Imaginations](https://books.google.com/books?isbn=9780631183327)* (1994) | Derek Gregory | Monograph | A rigorous examination of the intersections between social theory, postmodernism, and spatial discourse, analyzing how Eurocentric imaginative geographies shape spatial knowledge. |
-| *[The Condition of Postmodernity: An Enquiry into the Origins of Cultural Change](https://books.google.com/books?isbn=9780631162940)* (1989) | David Harvey | Monograph | Formulated the concept of "time-space compression," explaining how shifts in global capitalist accumulation reshape aesthetic movements, urban forms, and cultural experiences of time and space. |
+| Title | Author(s) |
+| --- | --- |
+| ["A Global Sense of Place" (1991)](https://banmarchive.org.uk/marxism-today/june-1991/a-global-sense-of-place/) | Doreen Massey |
+| [*Feminism and Geography: The Limits of Geographical Knowledge* (1993)](https://archive.org/details/feminismingeogra0000rose) | Gillian Rose |
+| [*The Condition of Postmodernity: An Enquiry into the Origins of Cultural Change* (1989)](https://archive.org/details/conditionofpostm0000harv) | David Harvey |
+| [*Demonic Grounds: Black Women and the Cartographies of Struggle* (2006)](https://books.google.com/books?isbn=9780816647033) | Katherine McKittrick |
+| [*Geographical Imaginations* (1994)](https://books.google.com/books?isbn=9780631183327) | Derek Gregory |
+| [*Golden Gulag: Prisons, Surplus, Crisis, and Opposition in Globalizing California* (2007)](https://books.google.com/books?isbn=9780520242012) | Ruth Wilson Gilmore |
 
-## Frontiers: Affect, More-Than-Human & Non-Representational Geographies
+## Mobilities, Borders & Transnational Geographies
 
-| Title | Author(s) | Type | Why It's Worth Reading |
-| --- | --- | --- | --- |
-| *[Hybrid Geographies: Natures Cultures Spaces](https://books.google.com/books?isbn=9780761965671)* (2002) | Sarah Whatmore | Monograph | Initiated more-than-human geography by de-centering the human subject and analyzing how animals, plants, and technical networks actively co-constitute relational spatial worlds. |
-| *[Non-Representational Theory: Space, Politics, Affect](https://books.google.com/books?isbn=9780415393218)* (2008) | Nigel Thrift | Monograph | Gathers the foundational writings of non-representational theory (NRT), urging geographers to move beyond signs and texts to study pre-reflective bodily practices, movement, and affect. |
-| *[In Place/Out of Place: Geography, Ideology, and Transgression](https://books.google.com/books?isbn=9780816626892)* (1996) | Tim Cresswell | Monograph | Investigates spatial expectations of normative behavior, demonstrating how social boundary violations ("being out of place") reveal how spatial order enforces moral and social order. |
-| *[Staying with the Trouble: Making Kin in the Chthulucene](https://books.google.com/books?isbn=9780822362241)* (2016) | Donna J. Haraway | Monograph | An influential philosophical intervention for environmental cultural geographers on multispecies storytelling, situated knowledges, and living within damaged landscapes. |
+| Title | Author(s) |
+| --- | --- |
+| [*On the Move: Mobility in the Modern Western World* (2006)](https://books.google.com/books?isbn=9780415952569) | Tim Cresswell |
+| [*The Tourist Gaze* (1990)](https://archive.org/details/touristgaze0000urry) | John Urry |
+| [*Border as Method, or, the Multiplication of Labor* (2013)](https://books.google.com/books?isbn=9780822355038) | Sandro Mezzadra & Brett Neilson |
+| [*The Black Atlantic: Modernity and Double Consciousness* (1993)](https://books.google.com/books?isbn=9780674076068) | Paul Gilroy |
+| [*Mobility Justice: The Politics of Movement in an Age of Extremes* (2018)](https://books.google.com/books?isbn=9781788730921) | Mimi Sheller |
 
-## Essential Companions & Field Anthologies
+## Memory, Heritage & Commemorative Landscapes
 
-| Title | Author(s) | Type | Why It's Worth Reading |
-| --- | --- | --- | --- |
-| *[Handbook of Cultural Geography](https://books.google.com/books?isbn=9780761958802)* (2002) | Kay Anderson, Mona Domosh, Steve Pile, & Nigel Thrift (eds.) | Reference Handbook | A comprehensive, authoritative survey containing essays from leading international scholars detailing every major paradigm, debate, and subfield across cultural geography. |
-| *[A Companion to Cultural Geography](https://books.google.com/books?isbn=9781405175654)* (2004) | James S. Duncan, Nuala C. Johnson, & Richard H. Schein (eds.) | Academic Companion | A structured reference covering nature/culture debates, spatial epistemologies, colonial and postcolonial landscapes, and the performance of identity. |
-| *[Cultural Geography: A Critical Dictionary of Key Concepts](https://archive.org/details/culturalgeograph0000unse_m1l7)* (2005) | David Atkinson, Peter Jackson, David Sibley, & Neil Washbourne (eds.) | Critical Reference | Provides rigorous, short conceptual genealogies for core theoretical terms (e.g., hegemony, the gaze, hybridity, spatiality, representation) used across cultural geographical literature. |
+| Title | Author(s) |
+| --- | --- |
+| [*The Past Is a Foreign Country* (1985)](https://archive.org/details/pastisforeigncou0000lowe) | David Lowenthal |
+| [*Shadowed Ground: America's Landscapes of Violence and Tragedy* (1997)](https://books.google.com/books?isbn=9780292725560) | Kenneth E. Foote |
+| [*Uses of Heritage* (2006)](https://books.google.com/books?isbn=9780415318310) | Laurajane Smith |
+| [*Industrial Ruins: Space, Aesthetics and Materiality* (2005)](https://books.google.com/books?isbn=9781845200770) | Tim Edensor |
+| [*Written in Stone: Public Monuments in Changing Societies* (1998)](https://books.google.com/books?isbn=9780822322207) | Sanford Levinson |
+
+## Affect, More-Than-Human & Non-Representational Geographies
+
+| Title | Author(s) |
+| --- | --- |
+| [*Hybrid Geographies: Natures Cultures Spaces* (2002)](https://books.google.com/books?isbn=9780761965671) | Sarah Whatmore |
+| [*Non-Representational Theory: Space, Politics, Affect* (2008)](https://books.google.com/books?isbn=9780415393218) | Nigel Thrift |
+| [*Sensuous Geographies: Body, Sense and Place* (1994)](https://books.google.com/books?isbn=9780415513395) | Paul Rodaway |
+| [*Staying with the Trouble: Making Kin in the Chthulucene* (2016)](https://books.google.com/books?isbn=9780822362241) | Donna J. Haraway |
+| [*Encountering Affect: Capacities, Apparatuses, Conditions* (2014)](https://books.google.com/books?isbn=9781138248489) | Ben Anderson |
+

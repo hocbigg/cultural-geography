@@ -3,36 +3,11 @@ title: Hocbigg - Cultural Geography
 description: Path to a free self-taught education in Cultural Geography!
 ---
 
-# Contents
-
-- [Summary](#summary)
-- [Communities](#communities)
-- [Curriculum](#curriculum)
-- [Code of conduct](#code-of-conduct)
-
-# Summary
+## Introduction
 
 The Cultural Geography curriculum is a complete education in Cultural Geography using online materials.
 
-## Organization
-
-This repository is organized into three main components:
-
-- **Core Curriculum** (this page): the foundational knowledge of the field;
-- **[Advanced Topics](advanced_topics.md)**: focused study in specific areas;
-
-**Process:** Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.
-
-- For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.
-- The Core Curriculum provides a shared foundation and is intended to be completed in full.
-- Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.
-
-Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in [extras/courses](extras/courses.md), [extras/readings](extras/readings.md).
-
-**[How to contribute](/CONTRIBUTING.html)**
-
-# Communities
+## Communities
 
 - Subreddits:
     - [r/geography](https://www.reddit.com/r/geography/) (active discussions on human, cultural, and physical geography topics)
@@ -43,62 +18,121 @@ they belong in [extras/courses](extras/courses.md), [extras/readings](extras/rea
     - [AAG Cultural Geography Specialty Group](https://www.aag.org/groups/cultural-geography/) (professional network for scholars via American Association of Geographers; includes forums and events)
     - [AAG Communities Platform](https://community.aag.org/home) (member discussion forums for geography specialty groups, including cultural)
 - You can also interact through [GitHub issues](https://github.com/hocbigg/cultural-geography/issues). If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more [here](/CONTRIBUTING.html).
-- Join our Discord server (for discussions around this and other curricula): 
-    
-    [![discord link](/assets/discord.png)](https://discord.gg/KHqAv4Nvm5)
 
-# Curriculum
+## Curriculum
 
-- [Foundations of Human & Cultural Geography](#foundations-of-human--cultural-geography)
-- [Core Cultural Geography](#core-cultural-geography)
-- [Culture, Power, and Difference](#culture-power-and-difference)
-- [Everyday, Urban & Global Cultural Geography](#everyday-urban--global-cultural-geography)
+### Spatial Foundations: Space, Place, Landscape, and Scale
 
-## How to use this curriculum
+This subject introduces the foundational spatial toolkit of geography, examining the distinctions between abstract space and lived place, the morphology of landscapes, and how spatial scale operates.
 
-### Core Sections
+[Crash Course Geography: What is Geography? & What is Human Geography? (CrashCourse / PBS)](https://thecrashcourse.com/topic/geography/) - A low-friction video primer that pairs well as an introductory visual overview before reading the textbooks.
 
-These four sections form the essential foundation. Complete them in this exact order:
+[Introduction to Human Geography (David Dorrell & Joseph Henderson / Open Textbook Library)](https://open.umn.edu/opentextbooks/textbooks/introduction-to-human-geography) - An open-access introductory textbook covering basic spatial distributions, map interpretation, and core geographical concepts in chapters 1 and 2.
 
-1. **Foundations of Human & Cultural Geography**: Start here. This section introduces spatial concepts (space, place, scale, landscape), the historical evolution of cultural geography from the Berkeley School to the Cultural Turn, and nature-culture relationships.
-2. **Core Cultural Geography**: Move to this section next. It covers the core empirical pillars of the discipline: material landscapes, linguistic geography and toponymy, sacred spaces, and cultural diasporas.
-3. **Culture, Power, and Difference**: Study this third. It introduces critical cultural geography, examining how power relations, ideology, race, gender, and postcolonial histories structure spatial inclusion, exclusion, and inequality.
-4. **Everyday, Urban & Global Cultural Geography**: Complete this fourth. It applies cultural geographic analysis to concrete spatial practices: public space and gentrification in cities, heritage and memory landscapes, and globalized consumption.
+[Place: An Introduction (Tim Cresswell / Wiley-Blackwell)](https://books.google.com/books?isbn=9780470655634) - A complementary conceptual study that goes deeper into the philosophical evolution of place versus space for learners wanting textual depth.
 
-## Foundations of Human & Cultural Geography
+[Exploring Humans' Space: An Introduction to Geographicity (EPFL / edX)](https://www.edx.org/course/exploring-humans-space-introduction-epflx-spacex) - An alternative multimedia university course covering spatiality, mobility, and spatial justice for learners who prefer a structured lecture format over self-paced reading.
 
-| Subject | Why study? | Book / Text | Course |
-| --- | --- | --- | --- |
-| Spatial Foundations: Space, Place, Landscape & Scale | Establishes the foundational geographic toolkit. You learn to distinguish between abstract space and lived place, recognize how scale functions, and analyze landscapes as expressions of human values. | [*Place: An Introduction* (Tim Cresswell)](https://www.wiley.com/en-us/Place%3A+An+Introduction%2C+2nd+Edition-p-9780470655634) OR [*Introduction to Human Geography* (Open Textbook - Dorrell & Henderson)](https://open.umn.edu/opentextbooks/textbooks/introduction-to-human-geography-dorrell) | [Saylor “Introduction to Geography” (GEOG101)](https://learn.saylor.org/course/view.php?id=1145) |
-| Evolution of Cultural Geography (Berkeley School to the Cultural Turn) | Traces how cultural geography evolved from Carl Sauer’s material landscape morphology to the modern "cultural turn," which treats culture as dynamic, contested, and socially constructed. | [*Understanding Cultural Geography: Places and Traces* (Jon Anderson)](https://www.routledge.com/Understanding-Cultural-Geography-Places-and-Traces/Anderson/p/book/9781138656208) OR [*Maps of Meaning: An Introduction to Cultural Geography* (Peter Jackson)](https://www.routledge.com/Maps-of-Meaning-An-Introduction-to-Cultural-Geography/Jackson/p/book/9780415090889) | [OpenLearn “Exploring a definition of geography” (The Open University)](https://www.open.edu/openlearn/) |
-| Nature, Culture & Cultural Ecology | Examines how different human cultures perceive, construct, and adapt to natural environments, rejecting crude environmental determinism in favor of cultural ecology and political ecology. | [*Fundamentals of Human Geography* (Open Textbook - Wing Cheung)](https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-human-geography) | [edX / UT Austin “AP Human Geography: Nature & Perspectives”](https://www.edx.org) |
+### Evolution of Cultural Geography: Sauer to the Cultural Turn
 
-## Core Cultural Geography
+This subject traces the discipline's trajectory from Carl Sauer's material landscape morphology through the critique of environmental determinism to the 1980s "cultural turn" that treats culture as dynamic, contested, and socially constructed.
 
-| Subject | Why study? | Book / Text | Course |
-| --- | --- | --- | --- |
-| Cultural Landscapes, Folk & Popular Culture | Teaches how everyday built environments, architecture, and material culture reflect societal values, hearths of innovation, and spatial diffusion patterns. | [*Understanding Cultural Geography: Places and Traces* (Jon Anderson)](https://www.routledge.com/Understanding-Cultural-Geography-Places-and-Traces/Anderson/p/book/9781138656208) OR [*The Cultural Landscape* (James M. Rubenstein)](https://www.pearson.com) | [OpenLearn “Geography Matters” (The Open University)](https://www.open.edu/openlearn/) |
-| Geographies of Language & Toponymy | Explores how languages and dialects diffuse across space, how linguistic landscapes convey power, and how place-naming (toponymy) asserts cultural ownership and historical memory. | [*Fundamentals of Human Geography* (Wing Cheung - Ch. 5: Geography of Language)](https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-human-geography) | [edX / UT Austin “AP Human Geography: Cultural Patterns and Processes”](https://www.edx.org) |
-| Geographies of Religion & Sacred Space | Analyzes how belief systems emerge from cultural hearths, diffuse globally, establish sacred topographies, and shape architectural landscapes and territorial identities. | [*Fundamentals of Human Geography* (Wing Cheung - Ch. 6: Geography of Religion)](https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-human-geography) OR [*Introduction to Human Geography* (Dorrell & Henderson - Ch. 7)](https://open.umn.edu/opentextbooks/textbooks/introduction-to-human-geography-dorrell) | [Saylor “Introduction to Comparative Religion”](https://learn.saylor.org) |
-| Mobility, Migration & Cultural Diasporas | Investigates how human movement, forced displacements, and transnational diasporas create hybrid cultural identities, transnational social spaces, and reimagined homelands. | [*Understanding Cultural Geography: Places and Traces* (Jon Anderson - Ch: Place and Mobility)](https://www.routledge.com/Understanding-Cultural-Geography-Places-and-Traces/Anderson/p/book/9781138656208) | [OpenLearn “Thinking geographically about migration” (The Open University)](https://www.open.edu/openlearn/) |
+[Understanding Cultural Geography: Places and Traces (Jon Anderson / Routledge)](https://books.google.com/books?isbn=9780367469337) - The primary comprehensive textbook tracing how cultural geography evolved from Sauerian landscape morphology to contemporary social theory.
 
-## Culture, Power, and Difference
+[Maps of Meaning: An Introduction to Cultural Geography (Peter Jackson / Routledge)](https://books.google.com/books?isbn=9780415090889) - A seminal canonical text to be read alongside Anderson to understand how the British cultural turn reframed culture as a site of social contestation.
 
-| Subject | Why study? | Book / Text | Course |
-| --- | --- | --- | --- |
-| Critical Cultural Geography & Spatial Theory | Provides theoretical frameworks to analyze how dominant ideologies, power relations, and hegemony produce contested spaces and landscapes encoded with social meaning. | [*Cultural Geography: A Critical Introduction* (Don Mitchell)](https://www.wiley.com/en-us/Cultural+Geography%3A+A+Critical+Introduction-p-9781557868923) OR [*A Companion to Cultural Geography* (Duncan, Johnson, & Schein)](https://www.wiley.com/en-us/A+Companion+to+Cultural+Geography-p-9781405175654) | [MIT OpenCourseWare “Territory: Spatial Reification of Power”](https://ocw.mit.edu) |
-| Race, Ethnicity & Racialized Space | Uncovers how racial and ethnic categories are socially constructed through spatial mechanisms such as segregation, redlining, ethnic enclaves, and uneven access to resources. | [*Fundamentals of Human Geography* (Wing Cheung - Ch. 7: Ethnicity and Race)](https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-human-geography) | [Coursera “Race and Cultural Diversity in American Life and History” (University of Illinois)](https://www.coursera.org/learn/race-cultural-diversity-american-life) |
-| Gender, Sexuality & Feminist Geographies | Explores how spatial arrangements enforce gender norms, the divide between public and private spaces, embodied spatial experiences, and marginalized queer geographies. | [*Gender, Identity and Place: Understanding Feminist Geographies* (Linda McDowell)](https://www.politybooks.com) | [OpenLearn “Culture and Everyday Life” (The Open University)](https://www.open.edu/openlearn/) |
-| Postcolonial & Decolonial Geographies | Critiques imperial cartography, Orientalist spatial representations, and ongoing colonial legacies while highlighting Indigenous geographical knowledges and decolonial practices. | [*Postcolonialism (Key Ideas in Geography)* (Tariq Jazeel)](https://www.routledge.com/Postcolonialism/Jazeel/p/book/9780415443760) | [Royal Geographical Society (RGS-IBG) “Decolonising Geographical Knowledge”](https://www.rgs.org) |
+[Doreen Massey: Space, Place and Politics (The Open University / OpenLearn)](https://www.open.edu/openlearn/society-politics-law/geography/doreen-massey-space-place-and-politics) - A complementary audio-lecture series providing accessible spoken reflections on how space and place are relationally constructed.
 
-## Everyday, Urban & Global Cultural Geography
+### Nature, Culture, and Cultural Ecology
 
-| Subject | Why study? | Book / Text | Course |
-| --- | --- | --- | --- |
-| Urban Cultural Geography & Public Space | Analyzes cities as central arenas of cultural diversity, gentrification, subcultural place-making, and political struggles over the democratic right to public space. | [*City of Quarters: Urban Villages in the Contemporary City* (David Bell & Mark Jayne)](https://www.routledge.com/City-of-Quarters-Urban-Villages-in-the-Contemporary-City/Bell-Jayne/p/book/9780754634140) OR [*Introducing Human Geographies* (Cloke, Crang, & Goodwin)](https://www.routledge.com) | [Coursera “Cities are back in town: Urban sociology for a globalizing world” (Sciences Po)](https://www.coursera.org/learn/cities) |
-| Geographies of Memory, Heritage & Commemoration | Examines how collective memory, national identities, and historical narratives are materialized in monuments, heritage tourism sites, and contested memorial landscapes. | [*Understanding Cultural Geography: Places and Traces* (Jon Anderson)](https://www.routledge.com/Understanding-Cultural-Geography-Places-and-Traces/Anderson/p/book/9781138656208) | [OpenLearn “What is heritage?” (The Open University)](https://www.open.edu/openlearn/history-the-arts/what-heritage/content-section-0) |
-| Spaces of Consumption, Globalization & Everyday Life | Investigates how globalized consumer capitalism, shopping malls, themed spaces, and tourism commodify places, balancing global cultural homogenization with local glocalization. | [*Maps of Meaning: An Introduction to Cultural Geography* (Peter Jackson)](https://www.routledge.com/Maps-of-Meaning-An-Introduction-to-Cultural-Geography/Jackson/p/book/9780415090889) | [MIT OpenCourseWare “Globalization: The Good, the Bad, and the In-Between”](https://ocw.mit.edu/courses/21l-020j-globalization-the-good-the-bad-and-the-in-between-fall-2016/) |
+This subject explores how human societies conceptualize, modify, and socially construct the natural environment, moving from cultural adaptations to critical political ecology.
 
-# Code of conduct
+[Crash Course Geography: Human-Environment Interaction (CrashCourse / PBS)](https://thecrashcourse.com/topic/geography/) - A concise visual primer to watch alongside Cheung to build intuition around ecosystems and human modification of landscapes.
 
-[Hocbigg's code of conduct](https://github.com/hocbigg/code-of-conduct).
+[Fundamentals of Human Geography (Wing Cheung / Open Textbook Library)](https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-human-geography) - The core open-access textbook reading, detailing cultural adaptations and human-environment interaction models in geography.
+
+[Uncommon Ground: Rethinking the Human Place in Nature (William Cronon / W. W. Norton)](https://books.google.com/books?isbn=9780393315110) - A complementary reader that builds on the textbook models by critically deconstructing the cultural invention of "wilderness" and pristine nature.
+
+### Cultural Landscapes, Folk, and Popular Culture
+
+This subject examines material culture, vernacular architecture, and spatial diffusion patterns to read built environments as expressions of cultural values and commodified modern life.
+
+[Crash Course Geography: Race, Ethnicity, and the Cultural Landscape (CrashCourse / PBS)](https://thecrashcourse.com/topic/geography/) - An introductory visual overview that illustrates how distinct cultural groups mark physical space with visible architectural and landscape traits.
+
+[Fundamentals of Human Geography: Folk and Popular Culture (Wing Cheung / Palomar College)](https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-human-geography) - The primary open-access textbook chapter introducing sequent occupancy, material culture, and the diffusion of folk and popular practices.
+
+[The Interpretation of Ordinary Landscapes: Geographical Essays (D.W. Meinig / Oxford University Press)](https://books.google.com/books?isbn=9780195025361) - A seminal reader that provides the foundational field methods for deciphering ordinary vernacular environments, including Peirce Lewis's classic axioms for reading landscapes.
+
+### Geographies of Language and Toponymy
+
+This subject analyzes the spatial distribution and diffusion of language families, the politics of linguistic landscapes, and how place-naming (toponymy) asserts territorial identity and cultural memory.
+
+[Crash Course Geography: How Does Language Move? (CrashCourse / PBS)](https://thecrashcourse.com/topic/geography/) - A quick audiovisual primer that illustrates language family diffusion and place-naming power to watch before diving into either text.
+
+[Fundamentals of Human Geography: The Geography of Language (Wing Cheung / Open Textbook Library)](https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-human-geography) - A foundational open textbook chapter explaining language hearths, dialect geography, and the spatial politics of language policy.
+
+[Introduction to Human Geography: Language (Dorrell & Henderson / GALILEO Open Learning)](https://open.umn.edu/opentextbooks/textbooks/introduction-to-human-geography) - An alternative open-access textbook chapter covering similar ground with an emphasis on toponymic case studies and map exercises.
+
+### Geographies of Religion and Sacred Space
+
+This subject explores the geographic origin, hearths, and diffusion pathways of universalizing and ethnic religions, along with the spatial construction of sacred sites, pilgrimages, and territorial religious landscapes.
+
+[Crash Course Geography: How Did Religion Spread Along the Silk Road? (CrashCourse / PBS)](https://thecrashcourse.com/topic/geography/) - A short visual case study showing how trade networks and imperial expansion spread religious traditions across space.
+
+[Fundamentals of Human Geography: The Geography of Religion (Wing Cheung / Open Textbook Library)](https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-human-geography) - The core introductory reading covering the spatial diffusion, cultural hearths, and landscape impacts of major world belief systems.
+
+[Sacred Worlds: An Introduction to Geography and Religion (Chris C. Park / Routledge)](https://books.google.com/books?isbn=9780415090124) - A deeper, comprehensive textbook option for learners who want to explore sacred space, pilgrimage routes, and religious topographies beyond the introductory chapter.
+
+### Mobility, Migration, and Cultural Diasporas
+
+This subject investigates how voluntary migration, forced displacement, and transnational diaspora networks reshape spatial identities, create hybrid spaces, and redefine senses of home.
+
+[Crash Course Geography: Where and Why Do People Move? (CrashCourse / PBS)](https://thecrashcourse.com/topic/geography/) - An introductory visual companion explaining spatial interaction models, refugee corridors, and modern border dynamics.
+
+[Introduction to Human Geography: Population and Migration (Dorrell & Henderson / GALILEO)](https://open.umn.edu/opentextbooks/textbooks/introduction-to-human-geography) - The core foundational reading on push-pull factors, migration streams, and demographic modeling.
+
+[Understanding Cultural Geography: Place and Mobility (Jon Anderson / Routledge)](https://books.google.com/books?isbn=9780367469337) - Builds directly on the basic migration models by exploring how bodily movement, transnational diasporas, and transit corridors actively construct place-identity.
+
+### Critical Cultural Geography and Spatial Politics
+
+This subject introduces critical spatial theory, examining how power, ideology, hegemony, and capital accumulation produce uneven geographies and contested spatial boundaries.
+
+[Cultural Geography: A Critical Introduction (Don Mitchell / Wiley-Blackwell)](https://books.google.com/books?isbn=9781557868923) - The primary foundational textbook introducing Marxist spatial theory, ideological hegemony, and the landscape as an instrument of social control.
+
+### Race, Ethnicity, and Racialized Space
+
+This subject explores how racial and ethnic hierarchies are produced and enforced through spatial mechanisms like residential segregation, redlining, colonial land zoning, and the formation of ethnic enclaves.
+
+[Fundamentals of Human Geography: Ethnicity and Race (Wing Cheung / Open Textbook Library)](https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-human-geography) - The introductory open-access textbook baseline explaining segregation indexes, ethnic enclaves, and spatial patterns of assimilation.
+
+[Spatializing Blackness: Architectures of Confinement and Black Masculinity in Chicago (Rashad Shabazz / University of Illinois Press)](https://books.google.com/books?isbn=9780252081149) - A complementary empirical monograph demonstrating how urban planning, policing, and containment architectures actively produce racialized space in American cities.
+
+[Race and Cultural Diversity in American Life and History (University of Illinois Urbana-Champaign / Coursera)](https://www.coursera.org/learn/race-cultural-diversity-american-life) - An alternative structured video course exploring the historical and institutional construction of racial segregation and cultural diversity.
+
+### Gender, Sexuality, and Feminist Geographies
+
+This subject investigates how gender roles and sexual identities are spatially produced, examining the public-private divide, bodily spatial scales, and marginalized queer spaces.
+
+[Gender, Identity and Place: Understanding Feminist Geographies (Linda McDowell / Polity)](https://books.google.com/books?isbn=9780745615080) - The core foundational textbook, pedagogically organized across expanding geographic scales from the body and home to the city and nation.
+
+[Feminism and Geography: The Limits of Geographical Knowledge (Gillian Rose / Polity)](https://books.google.com/books?isbn=9780816624188) - A seminal theoretical critique to read after McDowell, examining how geographical knowledge historically excluded feminine and embodied spatial experience.
+
+### Postcolonial and Decolonial Geographies
+
+This subject evaluates how historical imperialism and cartography established unequal global structures, while highlighting Indigenous geographic systems and practices that dismantle colonial spatiality.
+
+[Crash Course Geography: Colonialism (CrashCourse / PBS)](https://thecrashcourse.com/topic/geography/) - An introductory visual primer outlining imperial cartography, colonial land partition, and spatial reorganization.
+
+[Postcolonialism (Key Ideas in Geography) (Tariq Jazeel / Routledge)](https://books.google.com/books?isbn=9780415443760) - The primary student textbook explaining postcolonial spatiality, Orientalist representations, and subaltern geographical knowledges.
+
+[Voices from the Global South: Confronting Climate Coloniality (The Open University / OpenLearn)](https://www.open.edu/openlearn/society-politics-law/voices-from-the-global-south-confronting-climate-coloniality) - A complementary contemporary lecture series exploring situated Southern perspectives, climate debt, and spatial resource extraction.
+
+### Urban Cultural Geography, Public Space, and Everyday Life
+
+This subject analyzes cities as key arenas of cultural diversity, public space struggles, gentrification, and commodified everyday environments shaped by globalization.
+
+[Crash Course Geography: How Are Cities Organized? & What is Urban Planning? (CrashCourse / PBS)](https://thecrashcourse.com/topic/geography/) - An introductory visual primer on classical urban spatial models, zoning, and urban morphology.
+
+[Introducing Human Geographies: People, Place, and the City (Paul Cloke, Philip Crang, & Mark Goodwin / Routledge)](https://books.google.com/books?isbn=9781444135350) - The primary textbook reading covering public space contestation, gentrification, and spaces of consumer culture.
+
+[Cities are Back in Town: Urban Sociology for a Globalizing Urban World (Sciences Po / Coursera)](https://www.coursera.org/learn/urban-development) - A complementary structured lecture course examining global urban governance, social inequality, and urban development across international metropolises.
