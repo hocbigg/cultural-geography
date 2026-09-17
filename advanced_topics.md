@@ -1,5 +1,7 @@
 # Advanced Topics in Cultural Geography
 
+Learners are encouraged to select one or two tracks aligned with their interests rather than attempting to complete all tracks.
+
 - [Mobilities, Transnationalism, and Border Geographies](#mobilities-transnationalism-and-border-geographies) - Investigates how spatial movement, infrastructure, borders, and displacement constitute global networks and lived experiences of difference.
 - [More-Than-Human Geographies and Cultural Political Ecology](#more-than-human-geographies-and-cultural-political-ecology) - Explores multi-species entanglements, Indigenous territorial ontologies, and the political-economic governance of nature and environmental crises.
 - [Critical Heritage, Memoryscapes, and Spatial Politics](#critical-heritage-memoryscapes-and-spatial-politics) - Examines how collective memory, national narratives, and institutional power materialize in monuments, heritage conservation, and contested historical landscapes.

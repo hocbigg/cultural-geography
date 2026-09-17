@@ -5,9 +5,30 @@ description: Path to a free self-taught education in Cultural Geography!
 
 ## Introduction
 
-The Cultural Geography curriculum is a complete education in Cultural Geography using online materials.
+Cultural geography investigates the reciprocal relationship between human culture and geographic space. Rather than treating space as an empty, neutral container or landscape as a mere backdrop to history, the discipline examines how human beliefs, social structures, power dynamics, and everyday practices actively construct landscapes—and how physical and built environments, in turn, shape human experience and identity. Studying cultural geography equips you with analytical frameworks to read the built environment, interrogate the spatial dimensions of social inequality, and understand how places acquire meaning, memory, and contestation.
 
-## Communities
+This curriculum is designed for self-directed learners. It assumes no formal background in geography, cartography, or social theory. The readings and courses selected favor conceptual clarity and direct real-world applicability over insular academic jargon, providing an accessible yet rigorous university-level foundation.
+
+### Scope
+
+This document is strictly a core undergraduate curriculum. It focuses on the fundamental concepts, canonical debates, and interpretive methods that every student of cultural geography needs to understand, while deliberately excluding specialized technical methods (such as GIS programming, quantitative spatial modeling, or formal archival field methods).
+
+Once you have completed these foundational subjects, you can explore the other guides in this series to broaden and deepen your study:
+
+- Move to [Advanced Topics](advanced_topics.md) to explore specialized frontiers, including critical heritage studies, the mobilities paradigm, multi-species spatialities, and non-representational theory.
+- Consult [Readings](extra/readings.md) for a curated bibliography of field-defining monographs, essays, and landmark texts.
+- Explore [Courses](extra/courses.md) for full-length recorded lecture series, open courseware, and audio programs from university faculties.
+
+### Curriculum Structure
+
+The curriculum is structured into twelve foundational subjects that build from conceptual tools to empirical topics, critical spatial politics, and contemporary applications:
+
+- **Theoretical Foundations:** Begin with the first three subjects (*Spatial Foundations*, *Evolution of Cultural Geography*, and *Nature, Culture, and Cultural Ecology*). These establish the non-negotiable spatial vocabulary of the discipline—differentiating abstract space from lived place, clarifying scale, and charting the historical shift from Carl Sauer’s material landscape morphology to the relational "cultural turn."
+- **Empirical Expressions of Culture:** Once the foundational vocabulary is established, proceed through the empirical pillars of cultural geography: *Cultural Landscapes*, *Geographies of Language and Toponymy*, *Geographies of Religion and Sacred Space*, and *Mobility, Migration, and Cultural Diasporas*. These explore the concrete media through which human groups organize territory, impart identity, and create hybrid spaces across borders. While listed in a logical order, these four subjects can be studied flexibly according to your interests.
+- **Power, Difference, and Spatial Politics:** Next, engage with critical spatial theory through *Critical Cultural Geography*, *Race and Racialized Space*, *Gender and Feminist Geographies*, and *Postcolonial and Decolonial Geographies*. This cluster examines how spatial arrangements enforce social hierarchies, police boundaries, and distribute environmental burdens, while also analyzing spatial forms of subaltern resistance.
+- **Applied Spatial Practice:** Conclude with *Urban Cultural Geography, Public Space, and Everyday Life*, which synthesizes the theoretical and critical tools developed earlier to analyze contemporary struggles over gentrification, privatization, and consumer spaces in global cities.
+
+### Communities
 
 - Subreddits:
     - [r/geography](https://www.reddit.com/r/geography/) (active discussions on human, cultural, and physical geography topics)
