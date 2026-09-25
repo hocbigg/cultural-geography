@@ -16,8 +16,8 @@ This document is strictly a core undergraduate curriculum. It focuses on the fun
 Once you have completed these foundational subjects, you can explore the other guides in this series to broaden and deepen your study:
 
 - Move to [Advanced Topics](advanced_topics.md) to explore specialized frontiers, including critical heritage studies, the mobilities paradigm, multi-species spatialities, and non-representational theory.
-- Consult [Readings](extra/readings.md) for a curated bibliography of field-defining monographs, essays, and landmark texts.
-- Explore [Courses](extra/courses.md) for full-length recorded lecture series, open courseware, and audio programs from university faculties.
+- Consult [Readings](extras/readings.md) for a curated bibliography of field-defining monographs, essays, and landmark texts.
+- Explore [Courses](extras/courses.md) for full-length recorded lecture series, open courseware, and audio programs from university faculties.
 
 ### Curriculum Structure
 

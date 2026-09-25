@@ -2,12 +2,12 @@
 
 An annotated bibliography of seminal monographs, transformative essays, and landmark empirical studies in Cultural Geography. These works trace how leading spatial theorists have formulated paradigms, challenged orthodoxies, and analyzed the relationships among culture, power, landscape, and space.
 
-- [Foundations, Humanistic Geography & The Experience of Place](#foundations-humanistic-geography--the-experience-of-place)
-- [The New Cultural Geography: Landscape, Ideology & Representation](#the-new-cultural-geography-landscape-ideology--representation)
-- [Power, Difference & Critical Spatialities](#power-difference--critical-spatialities)
-- [Mobilities, Borders & Transnational Geographies](#mobilities-borders--transnational-geographies)
-- [Memory, Heritage & Commemorative Landscapes](#memory-heritage--commemorative-landscapes)
-- [Affect, More-Than-Human & Non-Representational Geographies](#affect-more-than-human--non-representational-geographies)
+- [Foundations, Humanistic Geography & The Experience of Place](#foundations-humanistic-geography-the-experience-of-place)
+- [The New Cultural Geography: Landscape, Ideology & Representation](#the-new-cultural-geography-landscape-ideology-representation)
+- [Power, Difference & Critical Spatialities](#power-difference-critical-spatialities)
+- [Mobilities, Borders & Transnational Geographies](#mobilities-borders-transnational-geographies)
+- [Memory, Heritage & Commemorative Landscapes](#memory-heritage-commemorative-landscapes)
+- [Affect, More-Than-Human & Non-Representational Geographies](#affect-more-than-human-non-representational-geographies)
 
 ## Foundations, Humanistic Geography & The Experience of Place
 

@@ -1,10 +1,10 @@
 # Great Courses in Cultural Geography
 
-- [Foundations of Spatial Thought & Spatiality](#foundations-of-spatial-thought--spatiality)
-- [Urban Cultural Geography & Spatial Form](#urban-cultural-geography--spatial-form)
-- [Postcolonial, Indigenous & Decolonial Geographies](#postcolonial-indigenous--decolonial-geographies)
-- [Critical Heritage, Memory & Material Culture](#critical-heritage-memory--material-culture)
-- [Environmental Justice & Cultural Political Ecology](#environmental-justice--cultural-political-ecology)
+- [Foundations of Spatial Thought & Spatiality](#foundations-of-spatial-thought-spatiality)
+- [Urban Cultural Geography & Spatial Form](#urban-cultural-geography-spatial-form)
+- [Postcolonial, Indigenous & Decolonial Geographies](#postcolonial-indigenous-decolonial-geographies)
+- [Critical Heritage, Memory & Material Culture](#critical-heritage-memory-material-culture)
+- [Environmental Justice & Cultural Political Ecology](#environmental-justice-cultural-political-ecology)
 
 ## Foundations of Spatial Thought & Spatiality
 
