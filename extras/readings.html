@@ -1,111 +1,522 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Extra Reading</title>
-<link rel="stylesheet" href="/cultural-geography/style.css">
-<meta name="description" content="">
+  <title>Great Readings in Cultural Geography</title>
+  <meta name="description" content="Great Readings in Cultural Geography curriculum by hocbigg.">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/cultural-geography/">
+  <link rel="canonical" href="https://hocbigg.github.io/cultural-geography/extras/readings.html">
+  <meta property="og:title" content="Great Readings in Cultural Geography">
+  <meta property="og:description" content="Great Readings in Cultural Geography curriculum by hocbigg.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/cultural-geography/extras/readings.html">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Extra Reading">
-<meta property="og:description" content="">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/cultural-geography/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/cultural-geography/">Cultural-Geography</a>
-<a href="/cultural-geography/advanced_topics.html">Advanced Topics</a>
-<a href="/cultural-geography/extras/courses.html">Extra Courses</a>
-<a href="/cultural-geography/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/cultural-geography/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/cultural-geography/">Cultural Geography</a></li>
+      <li><a href="/cultural-geography/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/cultural-geography/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/cultural-geography/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/cultural-geography" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
-<h1 id="extra-reading">Extra Reading</h1>
-<p>This document consists of great books or articles on Cultural Geography.
-Some are here because there is a course covering the same material;
-some are just great books that you should read at some point in your career.</p>
-<p>Once you have made it through most of the curriculum, knowing whether a book is worth your time will become easier.
-Or, if you are struggling in one of the courses, perhaps reading a book on the subject will help.</p>
-<h2 id="core-cultural-geography">Core Cultural Geography</h2>
-<table>
+  <main id="main-content">
+    <article>
+
+<h1 id="great-readings-in-cultural-geography">Great Readings in Cultural Geography</h1>
+<p>An annotated bibliography of seminal monographs, transformative essays, and landmark empirical studies in Cultural Geography. These works trace how leading spatial theorists have formulated paradigms, challenged orthodoxies, and analyzed the relationships among culture, power, landscape, and space.</p>
+<ul>
+<li><a href="#foundations-humanistic-geography-the-experience-of-place">Foundations, Humanistic Geography &amp; The Experience of Place</a></li>
+<li><a href="#the-new-cultural-geography-landscape-ideology-representation">The New Cultural Geography: Landscape, Ideology &amp; Representation</a></li>
+<li><a href="#power-difference-critical-spatialities">Power, Difference &amp; Critical Spatialities</a></li>
+<li><a href="#mobilities-borders-transnational-geographies">Mobilities, Borders &amp; Transnational Geographies</a></li>
+<li><a href="#memory-heritage-commemorative-landscapes">Memory, Heritage &amp; Commemorative Landscapes</a></li>
+<li><a href="#affect-more-than-human-non-representational-geographies">Affect, More-Than-Human &amp; Non-Representational Geographies</a></li>
+</ul>
+<h2 id="foundations-humanistic-geography-the-experience-of-place">Foundations, Humanistic Geography &amp; The Experience of Place</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th>Title</th>
+<th>Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Cultural-Geography-Introduction-Donald-Mitchell/dp/1557868921">Cultural Geography: A Critical Introduction</a></td>
-<td style="text-align: center;">Don Mitchell</td>
+<td><a href="https://archive.org/details/universityofc02univ" target="_blank" rel="noopener noreferrer"><em>The Morphology of Landscape</em> (1925)</a></td>
+<td>Carl O. Sauer</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Prisoners-Geography-Everything-Global-Politics/dp/1501121472">Prisoners of Geography: Ten Maps That Tell You Everything You Need to Know About Global Politics</a></td>
-<td style="text-align: center;">Tim Marshall</td>
+<td><a href="https://archive.org/details/spaceplaceperspe0000tuan" target="_blank" rel="noopener noreferrer"><em>Space and Place: The Perspective of Experience</em> (1977)</a></td>
+<td>Yi-Fu Tuan</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://uk.sagepub.com/en-gb/eur/handbook-of-cultural-geography/book210769">The Handbook of Cultural Geography</a></td>
-<td style="text-align: center;">Kay Anderson, Mona Domosh, Steve Pile, Nigel Thrift (eds.)</td>
+<td><a href="https://archive.org/details/placeplacelessne0000relp" target="_blank" rel="noopener noreferrer"><em>Place and Placelessness</em> (1976)</a></td>
+<td>Edward Relph</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/discoveringverna0000jack" target="_blank" rel="noopener noreferrer"><em>Discovering the Vernacular Landscape</em> (1984)</a></td>
+<td>J.B. Jackson</td>
 </tr>
 </tbody>
-</table>
-<h2 id="supplementary-classics-and-modern-works">Supplementary Classics and Modern Works</h2>
-<table>
+</table></div>
+<h2 id="the-new-cultural-geography-landscape-ideology-representation">The New Cultural Geography: Landscape, Ideology &amp; Representation</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th>Title</th>
+<th>Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/American-Nations-History-Regional-Cultures/dp/0143122029">American Nations: A History of the Eleven Rival Regional Cultures of North America</a></td>
-<td style="text-align: center;">Colin Woodard</td>
+<td><a href="https://archive.org/details/socialformations0000cosg" target="_blank" rel="noopener noreferrer"><em>Social Formation and Symbolic Landscape</em> (1984)</a></td>
+<td>Denis Cosgrove</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Understanding-Cultural-Geography-Places-Traces/dp/1138815303">Understanding Cultural Geography: Places and Traces</a></td>
-<td style="text-align: center;">Jon Anderson</td>
+<td><a href="https://archive.org/details/iconographyoflan0000unse" target="_blank" rel="noopener noreferrer"><em>The Iconography of Landscape: Essays on the Symbolic Representation, Design and Use of Past Environments</em> (1988)</a></td>
+<td>Denis Cosgrove &amp; Stephen Daniels (eds.)</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Guns-Germs-Steel-Fates-Societies/dp/0393317552">Guns, Germs, and Steel: The Fates of Human Societies</a></td>
-<td style="text-align: center;">Jared Diamond</td>
+<td><a href="https://books.google.com/books?isbn=9780521611947" target="_blank" rel="noopener noreferrer"><em>The City as Text: The Politics of Landscape Interpretation in the Kandyan Kingdom</em> (1990)</a></td>
+<td>James S. Duncan</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780816626939" target="_blank" rel="noopener noreferrer"><em>The Lie of the Land: Migrant Workers and the California Landscape</em> (1996)</a></td>
+<td>Don Mitchell</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780415090889" target="_blank" rel="noopener noreferrer"><em>Maps of Meaning: An Introduction to Cultural Geography</em> (1989)</a></td>
+<td>Peter Jackson</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780816626892" target="_blank" rel="noopener noreferrer"><em>In Place/Out of Place: Geography, Ideology, and Transgression</em> (1996)</a></td>
+<td>Tim Cresswell</td>
 </tr>
 </tbody>
-</table>
-<h2 id="openfree-alternatives">Open/Free Alternatives</h2>
-<table>
+</table></div>
+<h2 id="power-difference-critical-spatialities">Power, Difference &amp; Critical Spatialities</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
 <thead>
 <tr>
-<th style="text-align: left;">Name</th>
-<th style="text-align: center;">Author(s)</th>
+<th>Title</th>
+<th>Author(s)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/world-regional-geography-people-places-and-globalization">World Regional Geography: People, Places and Globalization</a> (Open Textbook)</td>
-<td style="text-align: center;">University of Minnesota</td>
+<td><a href="https://banmarchive.org.uk/marxism-today/june-1991/a-global-sense-of-place/" target="_blank" rel="noopener noreferrer">"A Global Sense of Place" (1991)</a></td>
+<td>Doreen Massey</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/870">Introduction to Human Geography</a> (Open Textbook, 2nd Edition)</td>
-<td style="text-align: center;">David Dorrell et al.</td>
+<td><a href="https://archive.org/details/feminismingeogra0000rose" target="_blank" rel="noopener noreferrer"><em>Feminism and Geography: The Limits of Geographical Knowledge</em> (1993)</a></td>
+<td>Gillian Rose</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/conditionofpostm0000harv" target="_blank" rel="noopener noreferrer"><em>The Condition of Postmodernity: An Enquiry into the Origins of Cultural Change</em> (1989)</a></td>
+<td>David Harvey</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780816647033" target="_blank" rel="noopener noreferrer"><em>Demonic Grounds: Black Women and the Cartographies of Struggle</em> (2006)</a></td>
+<td>Katherine McKittrick</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780631183327" target="_blank" rel="noopener noreferrer"><em>Geographical Imaginations</em> (1994)</a></td>
+<td>Derek Gregory</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780520242012" target="_blank" rel="noopener noreferrer"><em>Golden Gulag: Prisons, Surplus, Crisis, and Opposition in Globalizing California</em> (2007)</a></td>
+<td>Ruth Wilson Gilmore</td>
 </tr>
 </tbody>
-</table>
-</article>
-</main>
+</table></div>
+<h2 id="mobilities-borders-transnational-geographies">Mobilities, Borders &amp; Transnational Geographies</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780415952569" target="_blank" rel="noopener noreferrer"><em>On the Move: Mobility in the Modern Western World</em> (2006)</a></td>
+<td>Tim Cresswell</td>
+</tr>
+<tr>
+<td><a href="https://archive.org/details/touristgaze0000urry" target="_blank" rel="noopener noreferrer"><em>The Tourist Gaze</em> (1990)</a></td>
+<td>John Urry</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780822355038" target="_blank" rel="noopener noreferrer"><em>Border as Method, or, the Multiplication of Labor</em> (2013)</a></td>
+<td>Sandro Mezzadra &amp; Brett Neilson</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780674076068" target="_blank" rel="noopener noreferrer"><em>The Black Atlantic: Modernity and Double Consciousness</em> (1993)</a></td>
+<td>Paul Gilroy</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9781788730921" target="_blank" rel="noopener noreferrer"><em>Mobility Justice: The Politics of Movement in an Age of Extremes</em> (2018)</a></td>
+<td>Mimi Sheller</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="memory-heritage-commemorative-landscapes">Memory, Heritage &amp; Commemorative Landscapes</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://archive.org/details/pastisforeigncou0000lowe" target="_blank" rel="noopener noreferrer"><em>The Past Is a Foreign Country</em> (1985)</a></td>
+<td>David Lowenthal</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780292725560" target="_blank" rel="noopener noreferrer"><em>Shadowed Ground: America's Landscapes of Violence and Tragedy</em> (1997)</a></td>
+<td>Kenneth E. Foote</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780415318310" target="_blank" rel="noopener noreferrer"><em>Uses of Heritage</em> (2006)</a></td>
+<td>Laurajane Smith</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9781845200770" target="_blank" rel="noopener noreferrer"><em>Industrial Ruins: Space, Aesthetics and Materiality</em> (2005)</a></td>
+<td>Tim Edensor</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780822322207" target="_blank" rel="noopener noreferrer"><em>Written in Stone: Public Monuments in Changing Societies</em> (1998)</a></td>
+<td>Sanford Levinson</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="affect-more-than-human-non-representational-geographies">Affect, More-Than-Human &amp; Non-Representational Geographies</h2>
+<div class="table-wrapper" tabindex="0" role="region" aria-label="Scrollable table"><table>
+<thead>
+<tr>
+<th>Title</th>
+<th>Author(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780761965671" target="_blank" rel="noopener noreferrer"><em>Hybrid Geographies: Natures Cultures Spaces</em> (2002)</a></td>
+<td>Sarah Whatmore</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780415393218" target="_blank" rel="noopener noreferrer"><em>Non-Representational Theory: Space, Politics, Affect</em> (2008)</a></td>
+<td>Nigel Thrift</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780415513395" target="_blank" rel="noopener noreferrer"><em>Sensuous Geographies: Body, Sense and Place</em> (1994)</a></td>
+<td>Paul Rodaway</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9780822362241" target="_blank" rel="noopener noreferrer"><em>Staying with the Trouble: Making Kin in the Chthulucene</em> (2016)</a></td>
+<td>Donna J. Haraway</td>
+</tr>
+<tr>
+<td><a href="https://books.google.com/books?isbn=9781138248489" target="_blank" rel="noopener noreferrer"><em>Encountering Affect: Capacities, Apparatuses, Conditions</em> (2014)</a></td>
+<td>Ben Anderson</td>
+</tr>
+</tbody>
+</table></div>
+    </article>
+  </main>
 
 </body>
 </html>

@@ -1,257 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
 
-<title>Hocbigg - Cultural Geography</title>
-<link rel="stylesheet" href="/cultural-geography/style.css">
-<meta name="description" content="Path to a free self-taught education in Cultural Geography!">
+  <title>Hocbigg - Cultural Geography</title>
+  <meta name="description" content="Path to a free self-taught education in Cultural Geography!">
+  <meta name="author" content="hocbigg">
 
-<link rel="canonical" href="https://hocbigg.github.io/cultural-geography/">
+  <link rel="canonical" href="https://hocbigg.github.io/cultural-geography/">
+  <meta property="og:title" content="Hocbigg - Cultural Geography">
+  <meta property="og:description" content="Path to a free self-taught education in Cultural Geography!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hocbigg.github.io/cultural-geography/">
+  <link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
 
-<meta property="og:title" content="Hocbigg - Cultural Geography">
-<meta property="og:description" content="Path to a free self-taught education in Cultural Geography!">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://hocbigg.github.io/cultural-geography/">
-<meta name="author" content="hocbigg">
-<link rel="icon" href="https://hocbigg.github.io/images/favicon.ico">
+  <style>
+:root {
+  color-scheme: light dark;
+
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #595959;
+  --border: #e0e0e0;
+  --th-bg: #f6f8fa;
+  --code-bg: #f4f4f4;
+  --link: #0969da;
+  --focus-ring: #0969da;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0d1117;
+    --fg: #e6edf3;
+    --muted: #8b949e;
+    --border: #30363d;
+    --th-bg: #161b22;
+    --code-bg: #161b22;
+    --link: #58a6ff;
+    --focus-ring: #58a6ff;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 1.5rem auto;
+  max-width: 60rem;
+  padding: 0 1rem 3.5rem;
+  background-color: var(--bg);
+  color: var(--fg);
+  font: 1.15rem/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  
+  /* Cú pháp hiện đại thay thế cho word-wrap */
+  overflow-wrap: break-word;
+}
+
+.site-header {
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 0.5rem 1.25rem;
+  font-size: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+nav a:hover, 
+nav a:focus-visible {
+  color: var(--fg);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+nav .nav-brand {
+  color: var(--fg);
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+.skip-link {
+  position: absolute;
+  transform: translateY(-150%);
+  left: 1rem;
+  background: var(--fg);
+  color: var(--bg);
+  padding: 0.5rem 1rem;
+  z-index: 100;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: transform 0.2s ease;
+}
+
+.skip-link:focus {
+  transform: translateY(1rem);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--fg);
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+p, ul, ol, blockquote, table {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+}
+
+li > ul,
+li > ol {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:has(img) {
+  text-decoration: none;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.page-header .page-subtitle {
+  color: var(--muted);
+  font-size: 1.15rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page-header img {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.875em;
+  background-color: var(--code-bg);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  border: 1px solid var(--border);
+}
+
+pre {
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow-x: auto;
+  tab-size: 2;
+}
+
+pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+
+th {
+  background-color: var(--th-bg);
+  font-weight: 600;
+}
+
+blockquote {
+  margin-inline: 0;
+  border-left: 4px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+    color: #000;
+    background: #fff;
+  }
+  .skip-link, nav {
+    display: none;
+  }
+}
+  </style>
 </head>
-
 <body>
 
-<nav>
-<a href="/">Hocbigg</a>
-<a href="/cultural-geography/">Cultural-Geography</a>
-<a href="/cultural-geography/advanced_topics.html">Advanced Topics</a>
-<a href="/cultural-geography/extras/courses.html">Extra Courses</a>
-<a href="/cultural-geography/extras/readings.html">Extra Reading</a>
-<a href="https://github.com/hocbigg/cultural-geography/" target="_blank">View on Github</a>
-</nav>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
-<main>
-<article>
+  <header class="site-header">
+    <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="https://hocbigg.github.io/" class="nav-brand">Hocbigg</a></li>
+      <li><a href="/cultural-geography/">Cultural Geography</a></li>
+      <li><a href="/cultural-geography/advanced_topics.html">Advanced Topics</a></li>
+      <li><a href="/cultural-geography/extras/readings.html">Extra Readings</a></li>
+      <li><a href="/cultural-geography/extras/courses.html">Extra Courses</a></li>
+      <li><a href="https://github.com/hocbigg/cultural-geography" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+    </ul>
+    </nav>
+  </header>
 
+  <main id="main-content">
+    <article>
 <header class="page-header">
-  <img src="/images/logo.png" alt="">
+  <img src="/images/logo.png" alt="Hocbigg logo">
   <h1>Hocbigg - Cultural Geography</h1>
+  <p class="page-subtitle">Path to a free self-taught education in Cultural Geography!</p>
+  <p class="last-updated"><small>Last updated on: <time datetime="2026-09-21">2026-09-21</time></small></p>
 </header>
-
-<h1 id="contents">Contents</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Cultural geography investigates the reciprocal relationship between human culture and geographic space. Rather than treating space as an empty, neutral container or landscape as a mere backdrop to history, the discipline examines how human beliefs, social structures, power dynamics, and everyday practices actively construct landscapes—and how physical and built environments, in turn, shape human experience and identity. Studying cultural geography equips you with analytical frameworks to read the built environment, interrogate the spatial dimensions of social inequality, and understand how places acquire meaning, memory, and contestation.</p>
+<p>This curriculum is designed for self-directed learners. It assumes no formal background in geography, cartography, or social theory. The readings and courses selected favor conceptual clarity and direct real-world applicability over insular academic jargon, providing an accessible yet rigorous university-level foundation.</p>
+<h3 id="scope">Scope</h3>
+<p>This document is strictly a core undergraduate curriculum. It focuses on the fundamental concepts, canonical debates, and interpretive methods that every student of cultural geography needs to understand, while deliberately excluding specialized technical methods (such as GIS programming, quantitative spatial modeling, or formal archival field methods).</p>
+<p>Once you have completed these foundational subjects, you can explore the other guides in this series to broaden and deepen your study:</p>
 <ul>
-<li><a href="#summary">Summary</a></li>
-<li><a href="#communities">Communities</a></li>
-<li><a href="#curriculum">Curriculum</a></li>
-<li><a href="#code-of-conduct">Code of conduct</a></li>
+<li>Move to <a href="advanced_topics.html">Advanced Topics</a> to explore specialized frontiers, including critical heritage studies, the mobilities paradigm, multi-species spatialities, and non-representational theory.</li>
+<li>Consult <a href="extras/readings.html">Readings</a> for a curated bibliography of field-defining monographs, essays, and landmark texts.</li>
+<li>Explore <a href="extras/courses.html">Courses</a> for full-length recorded lecture series, open courseware, and audio programs from university faculties.</li>
 </ul>
-<h1 id="summary">Summary</h1>
-<p>The Cultural Geography curriculum is a complete education in Cultural Geography using online materials.</p>
-<h2 id="organization">Organization</h2>
-<p>This repository is organized into three main components:</p>
+<h3 id="curriculum-structure">Curriculum Structure</h3>
+<p>The curriculum is structured into twelve foundational subjects that build from conceptual tools to empirical topics, critical spatial politics, and contemporary applications:</p>
 <ul>
-<li><strong>Core Curriculum</strong> (this page): the foundational knowledge of the field;</li>
-<li><strong><a href="advanced_topics.html">Advanced Topics</a></strong>: focused study in specific areas;</li>
+<li><strong>Theoretical Foundations:</strong> Begin with the first three subjects (<em>Spatial Foundations</em>, <em>Evolution of Cultural Geography</em>, and <em>Nature, Culture, and Cultural Ecology</em>). These establish the non-negotiable spatial vocabulary of the discipline—differentiating abstract space from lived place, clarifying scale, and charting the historical shift from Carl Sauer’s material landscape morphology to the relational "cultural turn."</li>
+<li><strong>Empirical Expressions of Culture:</strong> Once the foundational vocabulary is established, proceed through the empirical pillars of cultural geography: <em>Cultural Landscapes</em>, <em>Geographies of Language and Toponymy</em>, <em>Geographies of Religion and Sacred Space</em>, and <em>Mobility, Migration, and Cultural Diasporas</em>. These explore the concrete media through which human groups organize territory, impart identity, and create hybrid spaces across borders. While listed in a logical order, these four subjects can be studied flexibly according to your interests.</li>
+<li><strong>Power, Difference, and Spatial Politics:</strong> Next, engage with critical spatial theory through <em>Critical Cultural Geography</em>, <em>Race and Racialized Space</em>, <em>Gender and Feminist Geographies</em>, and <em>Postcolonial and Decolonial Geographies</em>. This cluster examines how spatial arrangements enforce social hierarchies, police boundaries, and distribute environmental burdens, while also analyzing spatial forms of subaltern resistance.</li>
+<li><strong>Applied Spatial Practice:</strong> Conclude with <em>Urban Cultural Geography, Public Space, and Everyday Life</em>, which synthesizes the theoretical and critical tools developed earlier to analyze contemporary struggles over gentrification, privatization, and consumer spaces in global cities.</li>
 </ul>
-<p><strong>Process:</strong> Learners may work through the curriculum independently or collaboratively, and either sequentially or selectively.</p>
-<ul>
-<li>For simplicity, courses in the Core Curriculum are ordered according to their prerequisites.</li>
-<li>The Core Curriculum provides a shared foundation and is intended to be completed in full.</li>
-<li>Advanced Topics are optional; learners are encouraged to select one area of focus and complete all courses within that topic.</li>
-</ul>
-<p>Note: When there are courses or books that don't fit into the curriculum but are otherwise of high quality,
-they belong in <a href="extras/courses.html">extras/courses</a>, <a href="extras/readings.html">extras/readings</a>.</p>
-<p><strong><a href="/CONTRIBUTING.html">How to contribute</a></strong></p>
-<h1 id="communities">Communities</h1>
+<h3 id="communities">Communities</h3>
 <ul>
 <li>Subreddits:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/geography/">r/geography</a> (active discussions on human, cultural, and physical geography topics)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/AskGeography/">r/AskGeography</a> (Q&amp;A focused on geographic concepts, including cultural aspects)</li>
+<li><a href="https://www.reddit.com/r/geography/" target="_blank" rel="noopener noreferrer">r/geography</a> (active discussions on human, cultural, and physical geography topics)</li>
+<li><a href="https://www.reddit.com/r/AskGeography/" target="_blank" rel="noopener noreferrer">r/AskGeography</a> (Q&amp;A focused on geographic concepts, including cultural aspects)</li>
 </ul>
 </li>
 <li>Discord servers:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/geography">The Geography Discord</a> (community focused on social/human geography, history, politics, and related topics)</li>
+<li><a href="https://discord.gg/geography" target="_blank" rel="noopener noreferrer">The Geography Discord</a> (community focused on social/human geography, history, politics, and related topics)</li>
 </ul>
 </li>
 <li>Other:<ul>
-<li><a target="_blank" rel="noopener noreferrer" href="https://www.aag.org/groups/cultural-geography/">AAG Cultural Geography Specialty Group</a> (professional network for scholars via American Association of Geographers; includes forums and events)</li>
-<li><a target="_blank" rel="noopener noreferrer" href="https://community.aag.org/home">AAG Communities Platform</a> (member discussion forums for geography specialty groups, including cultural)</li>
+<li><a href="https://www.aag.org/groups/cultural-geography/" target="_blank" rel="noopener noreferrer">AAG Cultural Geography Specialty Group</a> (professional network for scholars via American Association of Geographers; includes forums and events)</li>
+<li><a href="https://community.aag.org/home" target="_blank" rel="noopener noreferrer">AAG Communities Platform</a> (member discussion forums for geography specialty groups, including cultural)</li>
 </ul>
 </li>
-<li>You can also interact through <a target="_blank" rel="noopener noreferrer" href="https://github.com/hocbigg/cultural-geography/issues">GitHub issues</a>. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more <a href="/CONTRIBUTING.html">here</a>.</li>
-<li>
-<p>Join our Discord server (for discussions around this and other curricula): </p>
-<p><a target="_blank" rel="noopener noreferrer" href="https://discord.gg/KHqAv4Nvm5"><img alt="discord link" src="/assets/discord.png" /></a></p>
-</li>
+<li>You can also interact through <a href="https://github.com/hocbigg/cultural-geography/issues" target="_blank" rel="noopener noreferrer">GitHub issues</a>. If there is a problem with a course, or a change needs to be made to the curriculum, this is the place to start the conversation. Read more <a href="/CONTRIBUTING.html">here</a>.</li>
 </ul>
-<h1 id="curriculum">Curriculum</h1>
-<ul>
-<li><a href="#foundations-of-human--cultural-geography">Foundations of Human &amp; Cultural Geography</a></li>
-<li><a href="#core-cultural-geography">Core Cultural Geography</a></li>
-<li><a href="#culture-power-and-difference">Culture, Power, and Difference</a></li>
-<li><a href="#political-economic--urban-cultural-geography">Political, Economic &amp; Urban Cultural Geography</a></li>
-</ul>
-<h2 id="how-to-use-this-curriculum">How to use this curriculum</h2>
-<h3 id="core-sections">Core Sections</h3>
-<p>These four sections form the essential foundation. Complete them in this exact order:</p>
-<ol>
-<li>
-<p><strong>Foundations of Human &amp; Cultural Geography</strong><br />
-   Start here. This section introduces the basic concepts and ways of thinking used throughout the entire field.</p>
-</li>
-<li>
-<p><strong>Core Cultural Geography</strong><br />
-   Move to this section next. It builds directly on the foundations and covers the central topics every cultural geographer needs to understand.</p>
-</li>
-<li>
-<p><strong>Culture, Power, and Difference</strong><br />
-   Study this third. It deepens your understanding by exploring how power, identity, and inequality shape places and cultures.</p>
-</li>
-<li>
-<p><strong>Political, Economic &amp; Urban Cultural Geography</strong><br />
-   Complete this fourth. It connects earlier ideas to major real-world areas of geography: politics, economy, and cities.</p>
-</li>
-</ol>
-<h2 id="foundations-of-human-cultural-geography">Foundations of Human &amp; Cultural Geography</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why study?</th>
-<th>Book / Text</th>
-<th>Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Geographic Thinking (space, place, scale, landscape)</td>
-<td>It teaches how to analyze locations, areas, and their sizes to understand patterns and connections on Earth. This skill helps explain why things happen where they do and how places relate at different levels.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/335"><em>Geography: Realms, Regions, and Concepts</em> (Open Textbook Library)</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://learn.saylor.org/course/view.php?id=1145">Saylor “Introduction to Geography”</a></td>
-</tr>
-<tr>
-<td>Human Geography Overview</td>
-<td>It reveals how people shape and are shaped by their surroundings across the planet. You gain tools to examine population, cities, economies, and cultures through a spatial lens.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/introduction-to-human-geography-dorrell"><em>Introduction to Human Geography</em> (Open Textbook - Dorrell et al.)</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.edx.org/course/introduction-to-ap-human-geography">edX AP Human Geography</a></td>
-</tr>
-<tr>
-<td>Introduction to Cultural Geography</td>
-<td>It introduces the core ideas of how culture shapes and is shaped by space, place, and landscape — the unifying foundation for all later study.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-human-geography"><em>Fundamentals of Human Geography</em> (Open - Wing Cheung)</a> OR <a target="_blank" rel="noopener noreferrer" href="https://www.routledge.com/Cultural-Geographies-An-Introduction/Horton-Kraftl/p/book/9780273719687"><em>Cultural Geographies: An Introduction</em> (Horton &amp; Kraftl - preview chapters if accessible)</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://learn.saylor.org/course/view.php?id=1145">Saylor World Regional Geography</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="core-cultural-geography">Core Cultural Geography</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why study?</th>
-<th>Book / Text</th>
-<th>Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Cultural Geography Fundamentals</td>
-<td>It shows how beliefs, practices, and ways of life create and change landscapes around the world. You learn to read the visible signs of culture in everyday environments.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/introduction-to-human-geography-dorrell"><em>Introduction to Human Geography</em> (Open Textbook - Dorrell et al.)</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://und.edu/academics/online/enroll-anytime/geog151.html">UND Human Geography</a></td>
-</tr>
-<tr>
-<td>Population &amp; Migration</td>
-<td>It explains how people grow, move, and settle in different areas over time. This gives insight into global population patterns, cities' growth, and movement of communities.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/introduction-to-human-geography-dorrell"><em>Introduction to Human Geography</em> (Open Textbook - Dorrell et al.)</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.edx.org/course/introduction-to-ap-human-geography">edX AP Human Geography</a></td>
-</tr>
-<tr>
-<td>Language, Religion, and Identity</td>
-<td>It helps understand how spoken words, faiths, and sense of belonging spread and shape communities in specific places. You see why groups feel connected or distinct in various locations.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/introduction-to-human-geography-dorrell"><em>Introduction to Human Geography</em> (Open Textbook - Dorrell et al.)</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://und.edu/academics/online/enroll-anytime/geog151.html">UND Human Geography</a></td>
-</tr>
-<tr>
-<td>Cultural Landscapes &amp; Meaning</td>
-<td>It teaches how humans add layers of meaning to physical surroundings through buildings, art, and use of land. This ability reveals stories and values hidden in the places people create.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/introduction-to-human-geography-dorrell"><em>Introduction to Human Geography</em> (Open Textbook - Dorrell et al.)</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://und.edu/academics/online/enroll-anytime/geog151.html">Coursera “Cultural Geography” or related human geography modules if available; alternatively UND Human Geography</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="culture-power-and-difference">Culture, Power, and Difference</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why study?</th>
-<th>Book / Text</th>
-<th>Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Cultural Theory for Geographers</td>
-<td>It provides ways to think about how ideas, power, and everyday life shape places and identities. You gain tools to question and analyze hidden influences on spaces.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.amazon.com/Cultural-Geography-Introduction-Donald-Mitchell/dp/1557868921"><em>Cultural Geography: A Critical Introduction</em> (Mitchell - select chapters if accessible)</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.open.edu/openlearn/history-the-arts/history/culture-identity-and-power-the-roman-empire">Open University “Culture, Identity &amp; Place”</a></td>
-</tr>
-<tr>
-<td>Race, Ethnicity, and Space</td>
-<td>It uncovers how racial and ethnic groups experience, claim, or face exclusion in different locations. This builds understanding of inequality patterns tied to physical and social spaces.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/introduction-to-human-geography-dorrell"><em>Introduction to Human Geography</em> (Open Textbook - Dorrell et al. - relevant chapters)</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.coursera.org/learn/race-cultural-diversity-american-life">Coursera “Race and Cultural Diversity”</a></td>
-</tr>
-<tr>
-<td>Gender and Space</td>
-<td>It examines how gender roles influence access to, use of, and safety in various places. You learn why certain environments feel welcoming or restrictive to different genders.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/introduction-to-human-geography-dorrell"><em>Introduction to Human Geography</em> (Open Textbook - Dorrell et al. - relevant chapters)</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.open.edu/openlearn/education-development/teaching-secondary-geography/content-section-0">OpenLearn Feminist Geography</a></td>
-</tr>
-<tr>
-<td>Postcolonial &amp; Critical Geography</td>
-<td>It explores the lasting effects of colonialism on land, people, and power structures today. This knowledge helps recognize and challenge unequal spatial legacies across the world.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/introduction-to-human-geography-dorrell"><em>Introduction to Human Geography</em> (Open Textbook - Dorrell et al. - relevant chapters)</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://blogs.soas.ac.uk/decolonisingsoas/learning-teaching/">SOAS “Decolonising Geography”</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="political-economic-urban-cultural-geography">Political, Economic &amp; Urban Cultural Geography</h2>
-<table>
-<thead>
-<tr>
-<th>Subject</th>
-<th>Why study?</th>
-<th>Book / Text</th>
-<th>Course</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Political Geography &amp; Borders</td>
-<td>It explains how governments, territories, and boundaries organize power and identity on Earth. You gain ability to analyze conflicts, alliances, and control over space.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/introduction-to-human-geography-dorrell"><em>Introduction to Human Geography</em> (Open Textbook - Dorrell et al. - relevant chapters)</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://www.classcentral.com/course/political-geography-35126">Saylor “Political Geography”</a></td>
-</tr>
-<tr>
-<td>Economic Geography &amp; Culture</td>
-<td>It shows how production, trade, and money flow create differences between places. This reveals connections between culture, resources, and global economic patterns.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/introduction-to-human-geography-dorrell"><em>Introduction to Human Geography</em> (Open Textbook - Dorrell et al. - relevant chapters)</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://ocw.mit.edu/courses/21l-020j-globalization-the-good-the-bad-and-the-in-between-fall-2016/">MIT OpenCourseWare Globalization</a></td>
-</tr>
-<tr>
-<td>Urban Cultural Geography</td>
-<td>It uncovers how cities become centers of diverse cultures, creativity, and social life. You learn to read urban spaces as reflections of history, migration, and community dynamics.</td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://open.umn.edu/opentextbooks/textbooks/introduction-to-human-geography-dorrell"><em>Introduction to Human Geography</em> (Open Textbook - Dorrell et al. - relevant chapters)</a></td>
-<td><a target="_blank" rel="noopener noreferrer" href="https://und.edu/academics/online/enroll-anytime/geog151.html">UND Human Geography</a></td>
-</tr>
-</tbody>
-</table>
-<h1 id="code-of-conduct">Code of conduct</h1>
-<p><a target="_blank" rel="noopener noreferrer" href="https://github.com/hocbigg/code-of-conduct">Hocbigg's code of conduct</a>.</p>
-</article>
-</main>
+<h2 id="curriculum">Curriculum</h2>
+<h3 id="spatial-foundations-space-place-landscape-and-scale">Spatial Foundations: Space, Place, Landscape, and Scale</h3>
+<p>This subject introduces the foundational spatial toolkit of geography, examining the distinctions between abstract space and lived place, the morphology of landscapes, and how spatial scale operates.</p>
+<p><a href="https://thecrashcourse.com/topic/geography/" target="_blank" rel="noopener noreferrer">Crash Course Geography: What is Geography? &amp; What is Human Geography? (CrashCourse / PBS)</a> - A low-friction video primer that pairs well as an introductory visual overview before reading the textbooks.</p>
+<p><a href="https://open.umn.edu/opentextbooks/textbooks/introduction-to-human-geography" target="_blank" rel="noopener noreferrer">Introduction to Human Geography (David Dorrell &amp; Joseph Henderson / Open Textbook Library)</a> - An open-access introductory textbook covering basic spatial distributions, map interpretation, and core geographical concepts in chapters 1 and 2.</p>
+<p><a href="https://books.google.com/books?isbn=9780470655634" target="_blank" rel="noopener noreferrer">Place: An Introduction (Tim Cresswell / Wiley-Blackwell)</a> - A complementary conceptual study that goes deeper into the philosophical evolution of place versus space for learners wanting textual depth.</p>
+<p><a href="https://www.edx.org/course/exploring-humans-space-introduction-epflx-spacex" target="_blank" rel="noopener noreferrer">Exploring Humans' Space: An Introduction to Geographicity (EPFL / edX)</a> - An alternative multimedia university course covering spatiality, mobility, and spatial justice for learners who prefer a structured lecture format over self-paced reading.</p>
+<h3 id="evolution-of-cultural-geography-sauer-to-the-cultural-turn">Evolution of Cultural Geography: Sauer to the Cultural Turn</h3>
+<p>This subject traces the discipline's trajectory from Carl Sauer's material landscape morphology through the critique of environmental determinism to the 1980s "cultural turn" that treats culture as dynamic, contested, and socially constructed.</p>
+<p><a href="https://books.google.com/books?isbn=9780367469337" target="_blank" rel="noopener noreferrer">Understanding Cultural Geography: Places and Traces (Jon Anderson / Routledge)</a> - The primary comprehensive textbook tracing how cultural geography evolved from Sauerian landscape morphology to contemporary social theory.</p>
+<p><a href="https://books.google.com/books?isbn=9780415090889" target="_blank" rel="noopener noreferrer">Maps of Meaning: An Introduction to Cultural Geography (Peter Jackson / Routledge)</a> - A seminal canonical text to be read alongside Anderson to understand how the British cultural turn reframed culture as a site of social contestation.</p>
+<p><a href="https://www.open.edu/openlearn/society-politics-law/geography/doreen-massey-space-place-and-politics" target="_blank" rel="noopener noreferrer">Doreen Massey: Space, Place and Politics (The Open University / OpenLearn)</a> - A complementary audio-lecture series providing accessible spoken reflections on how space and place are relationally constructed.</p>
+<h3 id="nature-culture-and-cultural-ecology">Nature, Culture, and Cultural Ecology</h3>
+<p>This subject explores how human societies conceptualize, modify, and socially construct the natural environment, moving from cultural adaptations to critical political ecology.</p>
+<p><a href="https://thecrashcourse.com/topic/geography/" target="_blank" rel="noopener noreferrer">Crash Course Geography: Human-Environment Interaction (CrashCourse / PBS)</a> - A concise visual primer to watch alongside Cheung to build intuition around ecosystems and human modification of landscapes.</p>
+<p><a href="https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-human-geography" target="_blank" rel="noopener noreferrer">Fundamentals of Human Geography (Wing Cheung / Open Textbook Library)</a> - The core open-access textbook reading, detailing cultural adaptations and human-environment interaction models in geography.</p>
+<p><a href="https://books.google.com/books?isbn=9780393315110" target="_blank" rel="noopener noreferrer">Uncommon Ground: Rethinking the Human Place in Nature (William Cronon / W. W. Norton)</a> - A complementary reader that builds on the textbook models by critically deconstructing the cultural invention of "wilderness" and pristine nature.</p>
+<h3 id="cultural-landscapes-folk-and-popular-culture">Cultural Landscapes, Folk, and Popular Culture</h3>
+<p>This subject examines material culture, vernacular architecture, and spatial diffusion patterns to read built environments as expressions of cultural values and commodified modern life.</p>
+<p><a href="https://thecrashcourse.com/topic/geography/" target="_blank" rel="noopener noreferrer">Crash Course Geography: Race, Ethnicity, and the Cultural Landscape (CrashCourse / PBS)</a> - An introductory visual overview that illustrates how distinct cultural groups mark physical space with visible architectural and landscape traits.</p>
+<p><a href="https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-human-geography" target="_blank" rel="noopener noreferrer">Fundamentals of Human Geography: Folk and Popular Culture (Wing Cheung / Palomar College)</a> - The primary open-access textbook chapter introducing sequent occupancy, material culture, and the diffusion of folk and popular practices.</p>
+<p><a href="https://books.google.com/books?isbn=9780195025361" target="_blank" rel="noopener noreferrer">The Interpretation of Ordinary Landscapes: Geographical Essays (D.W. Meinig / Oxford University Press)</a> - A seminal reader that provides the foundational field methods for deciphering ordinary vernacular environments, including Peirce Lewis's classic axioms for reading landscapes.</p>
+<h3 id="geographies-of-language-and-toponymy">Geographies of Language and Toponymy</h3>
+<p>This subject analyzes the spatial distribution and diffusion of language families, the politics of linguistic landscapes, and how place-naming (toponymy) asserts territorial identity and cultural memory.</p>
+<p><a href="https://thecrashcourse.com/topic/geography/" target="_blank" rel="noopener noreferrer">Crash Course Geography: How Does Language Move? (CrashCourse / PBS)</a> - A quick audiovisual primer that illustrates language family diffusion and place-naming power to watch before diving into either text.</p>
+<p><a href="https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-human-geography" target="_blank" rel="noopener noreferrer">Fundamentals of Human Geography: The Geography of Language (Wing Cheung / Open Textbook Library)</a> - A foundational open textbook chapter explaining language hearths, dialect geography, and the spatial politics of language policy.</p>
+<p><a href="https://open.umn.edu/opentextbooks/textbooks/introduction-to-human-geography" target="_blank" rel="noopener noreferrer">Introduction to Human Geography: Language (Dorrell &amp; Henderson / GALILEO Open Learning)</a> - An alternative open-access textbook chapter covering similar ground with an emphasis on toponymic case studies and map exercises.</p>
+<h3 id="geographies-of-religion-and-sacred-space">Geographies of Religion and Sacred Space</h3>
+<p>This subject explores the geographic origin, hearths, and diffusion pathways of universalizing and ethnic religions, along with the spatial construction of sacred sites, pilgrimages, and territorial religious landscapes.</p>
+<p><a href="https://thecrashcourse.com/topic/geography/" target="_blank" rel="noopener noreferrer">Crash Course Geography: How Did Religion Spread Along the Silk Road? (CrashCourse / PBS)</a> - A short visual case study showing how trade networks and imperial expansion spread religious traditions across space.</p>
+<p><a href="https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-human-geography" target="_blank" rel="noopener noreferrer">Fundamentals of Human Geography: The Geography of Religion (Wing Cheung / Open Textbook Library)</a> - The core introductory reading covering the spatial diffusion, cultural hearths, and landscape impacts of major world belief systems.</p>
+<p><a href="https://books.google.com/books?isbn=9780415090124" target="_blank" rel="noopener noreferrer">Sacred Worlds: An Introduction to Geography and Religion (Chris C. Park / Routledge)</a> - A deeper, comprehensive textbook option for learners who want to explore sacred space, pilgrimage routes, and religious topographies beyond the introductory chapter.</p>
+<h3 id="mobility-migration-and-cultural-diasporas">Mobility, Migration, and Cultural Diasporas</h3>
+<p>This subject investigates how voluntary migration, forced displacement, and transnational diaspora networks reshape spatial identities, create hybrid spaces, and redefine senses of home.</p>
+<p><a href="https://thecrashcourse.com/topic/geography/" target="_blank" rel="noopener noreferrer">Crash Course Geography: Where and Why Do People Move? (CrashCourse / PBS)</a> - An introductory visual companion explaining spatial interaction models, refugee corridors, and modern border dynamics.</p>
+<p><a href="https://open.umn.edu/opentextbooks/textbooks/introduction-to-human-geography" target="_blank" rel="noopener noreferrer">Introduction to Human Geography: Population and Migration (Dorrell &amp; Henderson / GALILEO)</a> - The core foundational reading on push-pull factors, migration streams, and demographic modeling.</p>
+<p><a href="https://books.google.com/books?isbn=9780367469337" target="_blank" rel="noopener noreferrer">Understanding Cultural Geography: Place and Mobility (Jon Anderson / Routledge)</a> - Builds directly on the basic migration models by exploring how bodily movement, transnational diasporas, and transit corridors actively construct place-identity.</p>
+<h3 id="critical-cultural-geography-and-spatial-politics">Critical Cultural Geography and Spatial Politics</h3>
+<p>This subject introduces critical spatial theory, examining how power, ideology, hegemony, and capital accumulation produce uneven geographies and contested spatial boundaries.</p>
+<p><a href="https://books.google.com/books?isbn=9781557868923" target="_blank" rel="noopener noreferrer">Cultural Geography: A Critical Introduction (Don Mitchell / Wiley-Blackwell)</a> - The primary foundational textbook introducing Marxist spatial theory, ideological hegemony, and the landscape as an instrument of social control.</p>
+<h3 id="race-ethnicity-and-racialized-space">Race, Ethnicity, and Racialized Space</h3>
+<p>This subject explores how racial and ethnic hierarchies are produced and enforced through spatial mechanisms like residential segregation, redlining, colonial land zoning, and the formation of ethnic enclaves.</p>
+<p><a href="https://open.umn.edu/opentextbooks/textbooks/fundamentals-of-human-geography" target="_blank" rel="noopener noreferrer">Fundamentals of Human Geography: Ethnicity and Race (Wing Cheung / Open Textbook Library)</a> - The introductory open-access textbook baseline explaining segregation indexes, ethnic enclaves, and spatial patterns of assimilation.</p>
+<p><a href="https://books.google.com/books?isbn=9780252081149" target="_blank" rel="noopener noreferrer">Spatializing Blackness: Architectures of Confinement and Black Masculinity in Chicago (Rashad Shabazz / University of Illinois Press)</a> - A complementary empirical monograph demonstrating how urban planning, policing, and containment architectures actively produce racialized space in American cities.</p>
+<p><a href="https://www.coursera.org/learn/race-cultural-diversity-american-life" target="_blank" rel="noopener noreferrer">Race and Cultural Diversity in American Life and History (University of Illinois Urbana-Champaign / Coursera)</a> - An alternative structured video course exploring the historical and institutional construction of racial segregation and cultural diversity.</p>
+<h3 id="gender-sexuality-and-feminist-geographies">Gender, Sexuality, and Feminist Geographies</h3>
+<p>This subject investigates how gender roles and sexual identities are spatially produced, examining the public-private divide, bodily spatial scales, and marginalized queer spaces.</p>
+<p><a href="https://books.google.com/books?isbn=9780745615080" target="_blank" rel="noopener noreferrer">Gender, Identity and Place: Understanding Feminist Geographies (Linda McDowell / Polity)</a> - The core foundational textbook, pedagogically organized across expanding geographic scales from the body and home to the city and nation.</p>
+<p><a href="https://books.google.com/books?isbn=9780816624188" target="_blank" rel="noopener noreferrer">Feminism and Geography: The Limits of Geographical Knowledge (Gillian Rose / Polity)</a> - A seminal theoretical critique to read after McDowell, examining how geographical knowledge historically excluded feminine and embodied spatial experience.</p>
+<h3 id="postcolonial-and-decolonial-geographies">Postcolonial and Decolonial Geographies</h3>
+<p>This subject evaluates how historical imperialism and cartography established unequal global structures, while highlighting Indigenous geographic systems and practices that dismantle colonial spatiality.</p>
+<p><a href="https://thecrashcourse.com/topic/geography/" target="_blank" rel="noopener noreferrer">Crash Course Geography: Colonialism (CrashCourse / PBS)</a> - An introductory visual primer outlining imperial cartography, colonial land partition, and spatial reorganization.</p>
+<p><a href="https://books.google.com/books?isbn=9780415443760" target="_blank" rel="noopener noreferrer">Postcolonialism (Key Ideas in Geography) (Tariq Jazeel / Routledge)</a> - The primary student textbook explaining postcolonial spatiality, Orientalist representations, and subaltern geographical knowledges.</p>
+<p><a href="https://www.open.edu/openlearn/society-politics-law/voices-from-the-global-south-confronting-climate-coloniality" target="_blank" rel="noopener noreferrer">Voices from the Global South: Confronting Climate Coloniality (The Open University / OpenLearn)</a> - A complementary contemporary lecture series exploring situated Southern perspectives, climate debt, and spatial resource extraction.</p>
+<h3 id="urban-cultural-geography-public-space-and-everyday-life">Urban Cultural Geography, Public Space, and Everyday Life</h3>
+<p>This subject analyzes cities as key arenas of cultural diversity, public space struggles, gentrification, and commodified everyday environments shaped by globalization.</p>
+<p><a href="https://thecrashcourse.com/topic/geography/" target="_blank" rel="noopener noreferrer">Crash Course Geography: How Are Cities Organized? &amp; What is Urban Planning? (CrashCourse / PBS)</a> - An introductory visual primer on classical urban spatial models, zoning, and urban morphology.</p>
+<p><a href="https://books.google.com/books?isbn=9781444135350" target="_blank" rel="noopener noreferrer">Introducing Human Geographies: People, Place, and the City (Paul Cloke, Philip Crang, &amp; Mark Goodwin / Routledge)</a> - The primary textbook reading covering public space contestation, gentrification, and spaces of consumer culture.</p>
+<p><a href="https://www.coursera.org/learn/urban-development" target="_blank" rel="noopener noreferrer">Cities are Back in Town: Urban Sociology for a Globalizing Urban World (Sciences Po / Coursera)</a> - A complementary structured lecture course examining global urban governance, social inequality, and urban development across international metropolises.</p>
+    </article>
+  </main>
 
 </body>
 </html>
